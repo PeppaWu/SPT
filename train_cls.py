@@ -17,37 +17,6 @@ from spikingjelly.clock_driven import functional
 import torch.nn as nn
 from torch.nn import functional as F
 
-
-def add_weight_decay(model, weight_decay=1e-5, skip_list=()):
-    decay = []
-    no_decay = []
-    num_trainable_params = 0
-    for name, param in model.named_parameters():
-        if not param.requires_grad:
-            continue  # frozen weights
-        if len(param.shape) == 1 or name.endswith(".bias") or 'token' in name or name in skip_list:
-            # print(name)
-            no_decay.append(param)
-            num_trainable_params += param.numel()
-        else:
-            decay.append(param)
-            num_trainable_params += param.numel()
-
-    total_params = sum([v.numel() for v in model.parameters()])
-    non_trainable_params = total_params - num_trainable_params
-    print('########################################################################')
-    print('>> {:25s}\t{:.2f}\tM  {:.2f}\tK'.format(
-        '# TrainableParams:', num_trainable_params / (1.0 * 10 ** 6), num_trainable_params / (1.0 * 10 ** 3)))
-    print('>> {:25s}\t{:.2f}\tM'.format('# NonTrainableParams:', non_trainable_params / (1.0 * 10 ** 6)))
-    print('>> {:25s}\t{:.2f}\tM'.format('# TotalParams:', total_params / (1.0 * 10 ** 6)))
-    print('>> {:25s}\t{:.2f}\t%'.format('# TuningRatio:', num_trainable_params / total_params * 100.))
-    print('########################################################################')
-
-    return [
-        {'params': no_decay, 'weight_decay': 0.},
-        {'params': decay, 'weight_decay': weight_decay}]
-
-
 def test(model, loader, num_class=40):
     classifier = model.eval()
     functional.reset_net(classifier)
