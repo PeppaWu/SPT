@@ -57,6 +57,10 @@ If you find this work useful, please consider citing:
 }
 ```
 
+## Acknowledgements
+
+The project is largely based on [Point-Transformer](https://github.com/qq456cvb/Point-Transformers) and has incorporated numerous code snippets from [Spike-Driven-Transformer](https://github.com/BICLab/Spike-Driven-Transformer), SpikingJelly from [SpikingJelly](https://github.com/fangwei123456/spikingjelly). Many thanks to these four projects for their excellent contributions!
+
 Feel free to contribute and reach out if you have any questions!
 
 
