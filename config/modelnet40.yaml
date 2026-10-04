@@ -1,0 +1,19 @@
+defaults:
+  - cls
+  - _self_
+
+model:
+  num_samples: 768
+
+batch_size: 8
+gpu: [0, 1]
+learning_rate: 0.001
+weight_decay: 0.0005
+dataset:
+  random_points: false
+augmentation:
+  dropout: 0.35
+  scale_low: 0.8
+  scale_high: 1.25
+
+log_dir: ./logs/modelnet40_q${model.num_samples}

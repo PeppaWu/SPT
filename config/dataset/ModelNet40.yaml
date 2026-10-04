@@ -1,0 +1,4 @@
+name: ModelNet
+DATA_PATH: ./data/modelnet40_normal_resampled/
+num_class: 40
+normal: True

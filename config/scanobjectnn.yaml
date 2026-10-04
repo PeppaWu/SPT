@@ -1,0 +1,14 @@
+defaults:
+  - cls
+  - override dataset: ScanObjectNN
+  - _self_
+
+learning_rate: 0.004
+batch_size: 16
+gpu: [0, 1, 2, 3]
+label_smoothing: 0.1
+class_weight_power: 0.75
+model:
+  num_samples: 768
+
+log_dir: ./logs/scanobjectnn_q${model.num_samples}

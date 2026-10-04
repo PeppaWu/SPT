@@ -1,0 +1,30 @@
+defaults:
+  - model: Hengshuang
+  - dataset: ModelNet40
+  - _self_
+
+batch_size: 6  # Per GPU.
+epoch: 200
+learning_rate: 0.001
+gpu: [0, 1, 2, 3]
+num_point: 1024
+optimizer: AdamW
+weight_decay: 0.0001
+label_smoothing: 0.0
+class_weight_power: 0.0
+num_workers: 2
+save_last_every: 10
+
+augmentation:
+  dropout: 0.2
+  scale_low: 0.85
+  scale_high: 1.15
+
+log_dir: ./logs/modelnet40_q${model.num_samples}
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: ${log_dir}/${now:%Y%m%d_%H%M%S}
+  sweep:
+    dir: ${log_dir}

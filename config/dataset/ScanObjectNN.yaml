@@ -1,0 +1,4 @@
+name: ScanObjectNN
+DATA_PATH: ./data/ScanObjectNN/
+num_class: 15
+normal: False

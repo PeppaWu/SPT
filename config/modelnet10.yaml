@@ -1,0 +1,20 @@
+defaults:
+  - cls
+  - override dataset: ModelNet10
+  - _self_
+
+model:
+  num_samples: 512
+
+batch_size: 8
+gpu: [0, 1]
+learning_rate: 0.001
+weight_decay: 0.0005
+dataset:
+  random_points: true
+augmentation:
+  dropout: 0.5
+  scale_low: 0.8
+  scale_high: 1.25
+
+log_dir: ./logs/modelnet10_q${model.num_samples}

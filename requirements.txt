@@ -1,0 +1,9 @@
+numpy==1.26.4
+tqdm==4.67.1
+hydra-core==1.2.0
+omegaconf==2.2.3
+cupy-cuda12x==12.3.0
+h5py==3.10.0
+globals==0.3.36
+tensorboard==2.17.1
+matplotlib==3.8.4
