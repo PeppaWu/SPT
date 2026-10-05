@@ -61,6 +61,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --standalone --nproc_per_node=4 test_cls.p
 
 Evaluation uses no voting by default. Add `+vote_num=100` for voting. OA and mAcc are saved in `evaluation.json`.
 
+## Checkpoints
+
+ScanObjectNN checkpoints: [Q512](logs/scanobjectnn_q512) and [Q768](logs/scanobjectnn_q768). Each directory contains `model.pth`, `config.yaml` and `training.log`.
+
+Install [Git LFS](https://git-lfs.com/), then run `git lfs install` and `git lfs pull` to download the weights.
+
 ## Citation
 
 ```bibtex

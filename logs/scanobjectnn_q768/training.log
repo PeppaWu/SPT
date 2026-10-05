@@ -1,0 +1,1299 @@
+[2026-10-03 05:05:35,204][__main__][INFO] - Load dataset ...
+[2026-10-03 05:05:40,000][__main__][INFO] - Dataset root=/mmu_mllm_hdd_2/wupeixi/data/ScanObjectNN; train=11416; test=2882
+[2026-10-03 05:05:40,003][__main__][INFO] - DDP world_size=4; batch per GPU=16; global batch=64; workers per rank=2
+[2026-10-03 05:05:40,975][__main__][INFO] - Using AdamW as model optimizer, lr is 0.004
+[2026-10-03 05:05:40,975][__main__][INFO] - Using StepLR as model scheduler, learning rate decay 0.3 for every 50 epochs
+[2026-10-03 05:05:40,975][__main__][INFO] - Start training...
+[2026-10-03 05:05:40,975][__main__][INFO] - Epoch 1/200:
+[2026-10-03 05:06:36,395][__main__][INFO] - Train time 55.404s; throughput 205.62 samples/s
+[2026-10-03 05:06:36,396][__main__][INFO] - Train Instance Accuracy: 0.279143
+[2026-10-03 05:06:36,396][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:06:48,100][__main__][INFO] - Current Epoch: 1, Test Instance Accuracy: 0.324774, Class Accuracy: 0.315862
+[2026-10-03 05:06:48,100][__main__][INFO] - Best Epoch: 1, Best Instance Accuracy: 0.324774, Class Accuracy: 0.315862
+[2026-10-03 05:06:48,289][__main__][INFO] - Save model...
+[2026-10-03 05:06:48,289][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:06:48,496][__main__][INFO] - Epoch 2/200:
+[2026-10-03 05:07:31,758][__main__][INFO] - Train time 43.260s; throughput 263.34 samples/s
+[2026-10-03 05:07:31,759][__main__][INFO] - Train Instance Accuracy: 0.399315
+[2026-10-03 05:07:31,759][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:07:36,860][__main__][INFO] - Current Epoch: 2, Test Instance Accuracy: 0.422276, Class Accuracy: 0.399298
+[2026-10-03 05:07:36,860][__main__][INFO] - Best Epoch: 2, Best Instance Accuracy: 0.422276, Class Accuracy: 0.399298
+[2026-10-03 05:07:36,971][__main__][INFO] - Save model...
+[2026-10-03 05:07:36,971][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:07:37,141][__main__][INFO] - Epoch 3/200:
+[2026-10-03 05:08:20,338][__main__][INFO] - Train time 43.194s; throughput 263.74 samples/s
+[2026-10-03 05:08:20,338][__main__][INFO] - Train Instance Accuracy: 0.451896
+[2026-10-03 05:08:20,338][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:08:25,440][__main__][INFO] - Current Epoch: 3, Test Instance Accuracy: 0.501735, Class Accuracy: 0.466903
+[2026-10-03 05:08:25,441][__main__][INFO] - Best Epoch: 3, Best Instance Accuracy: 0.501735, Class Accuracy: 0.466903
+[2026-10-03 05:08:25,443][__main__][INFO] - Save model...
+[2026-10-03 05:08:25,443][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:08:25,723][__main__][INFO] - Epoch 4/200:
+[2026-10-03 05:09:08,876][__main__][INFO] - Train time 43.150s; throughput 264.01 samples/s
+[2026-10-03 05:09:08,876][__main__][INFO] - Train Instance Accuracy: 0.482532
+[2026-10-03 05:09:08,877][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:09:13,976][__main__][INFO] - Current Epoch: 4, Test Instance Accuracy: 0.500347, Class Accuracy: 0.456149
+[2026-10-03 05:09:13,976][__main__][INFO] - Best Epoch: 3, Best Instance Accuracy: 0.501735, Class Accuracy: 0.466903
+[2026-10-03 05:09:13,977][__main__][INFO] - Epoch 5/200:
+[2026-10-03 05:09:57,450][__main__][INFO] - Train time 43.470s; throughput 262.06 samples/s
+[2026-10-03 05:09:57,450][__main__][INFO] - Train Instance Accuracy: 0.500263
+[2026-10-03 05:09:57,450][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:10:02,551][__main__][INFO] - Current Epoch: 5, Test Instance Accuracy: 0.499653, Class Accuracy: 0.445755
+[2026-10-03 05:10:02,551][__main__][INFO] - Best Epoch: 3, Best Instance Accuracy: 0.501735, Class Accuracy: 0.466903
+[2026-10-03 05:10:02,553][__main__][INFO] - Epoch 6/200:
+[2026-10-03 05:10:45,711][__main__][INFO] - Train time 43.155s; throughput 263.98 samples/s
+[2026-10-03 05:10:45,711][__main__][INFO] - Train Instance Accuracy: 0.522296
+[2026-10-03 05:10:45,711][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:10:50,815][__main__][INFO] - Current Epoch: 6, Test Instance Accuracy: 0.546149, Class Accuracy: 0.515310
+[2026-10-03 05:10:50,815][__main__][INFO] - Best Epoch: 6, Best Instance Accuracy: 0.546149, Class Accuracy: 0.515310
+[2026-10-03 05:10:51,494][__main__][INFO] - Save model...
+[2026-10-03 05:10:51,495][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:10:51,719][__main__][INFO] - Epoch 7/200:
+[2026-10-03 05:11:34,914][__main__][INFO] - Train time 43.192s; throughput 263.75 samples/s
+[2026-10-03 05:11:34,914][__main__][INFO] - Train Instance Accuracy: 0.544505
+[2026-10-03 05:11:34,914][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:11:40,011][__main__][INFO] - Current Epoch: 7, Test Instance Accuracy: 0.545455, Class Accuracy: 0.476698
+[2026-10-03 05:11:40,011][__main__][INFO] - Best Epoch: 6, Best Instance Accuracy: 0.546149, Class Accuracy: 0.515310
+[2026-10-03 05:11:40,651][__main__][INFO] - Epoch 8/200:
+[2026-10-03 05:12:23,856][__main__][INFO] - Train time 43.202s; throughput 263.69 samples/s
+[2026-10-03 05:12:23,856][__main__][INFO] - Train Instance Accuracy: 0.557496
+[2026-10-03 05:12:23,856][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:12:28,954][__main__][INFO] - Current Epoch: 8, Test Instance Accuracy: 0.552394, Class Accuracy: 0.487600
+[2026-10-03 05:12:28,954][__main__][INFO] - Best Epoch: 8, Best Instance Accuracy: 0.552394, Class Accuracy: 0.515310
+[2026-10-03 05:12:28,956][__main__][INFO] - Save model...
+[2026-10-03 05:12:28,956][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:12:29,123][__main__][INFO] - Epoch 9/200:
+[2026-10-03 05:13:12,287][__main__][INFO] - Train time 43.161s; throughput 263.94 samples/s
+[2026-10-03 05:13:12,287][__main__][INFO] - Train Instance Accuracy: 0.561973
+[2026-10-03 05:13:12,287][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:13:17,384][__main__][INFO] - Current Epoch: 9, Test Instance Accuracy: 0.539556, Class Accuracy: 0.518391
+[2026-10-03 05:13:17,384][__main__][INFO] - Best Epoch: 8, Best Instance Accuracy: 0.552394, Class Accuracy: 0.518391
+[2026-10-03 05:13:17,388][__main__][INFO] - Epoch 10/200:
+[2026-10-03 05:14:00,537][__main__][INFO] - Train time 43.147s; throughput 264.03 samples/s
+[2026-10-03 05:14:00,538][__main__][INFO] - Train Instance Accuracy: 0.576369
+[2026-10-03 05:14:00,538][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:14:05,633][__main__][INFO] - Current Epoch: 10, Test Instance Accuracy: 0.566620, Class Accuracy: 0.535554
+[2026-10-03 05:14:05,633][__main__][INFO] - Best Epoch: 10, Best Instance Accuracy: 0.566620, Class Accuracy: 0.535554
+[2026-10-03 05:14:05,913][__main__][INFO] - Save model...
+[2026-10-03 05:14:05,913][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:14:06,231][__main__][INFO] - Epoch 11/200:
+[2026-10-03 05:14:49,447][__main__][INFO] - Train time 43.214s; throughput 263.62 samples/s
+[2026-10-03 05:14:49,448][__main__][INFO] - Train Instance Accuracy: 0.600948
+[2026-10-03 05:14:49,448][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:14:54,545][__main__][INFO] - Current Epoch: 11, Test Instance Accuracy: 0.599584, Class Accuracy: 0.562130
+[2026-10-03 05:14:54,545][__main__][INFO] - Best Epoch: 11, Best Instance Accuracy: 0.599584, Class Accuracy: 0.562130
+[2026-10-03 05:14:54,547][__main__][INFO] - Save model...
+[2026-10-03 05:14:54,547][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:14:54,711][__main__][INFO] - Epoch 12/200:
+[2026-10-03 05:15:37,896][__main__][INFO] - Train time 43.182s; throughput 263.81 samples/s
+[2026-10-03 05:15:37,897][__main__][INFO] - Train Instance Accuracy: 0.606654
+[2026-10-03 05:15:37,897][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:15:42,996][__main__][INFO] - Current Epoch: 12, Test Instance Accuracy: 0.580847, Class Accuracy: 0.544756
+[2026-10-03 05:15:42,996][__main__][INFO] - Best Epoch: 11, Best Instance Accuracy: 0.599584, Class Accuracy: 0.562130
+[2026-10-03 05:15:43,292][__main__][INFO] - Epoch 13/200:
+[2026-10-03 05:16:26,462][__main__][INFO] - Train time 43.167s; throughput 263.91 samples/s
+[2026-10-03 05:16:26,462][__main__][INFO] - Train Instance Accuracy: 0.619909
+[2026-10-03 05:16:26,462][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:16:31,559][__main__][INFO] - Current Epoch: 13, Test Instance Accuracy: 0.587786, Class Accuracy: 0.556638
+[2026-10-03 05:16:31,559][__main__][INFO] - Best Epoch: 11, Best Instance Accuracy: 0.599584, Class Accuracy: 0.562130
+[2026-10-03 05:16:31,562][__main__][INFO] - Epoch 14/200:
+[2026-10-03 05:17:15,269][__main__][INFO] - Train time 43.705s; throughput 260.66 samples/s
+[2026-10-03 05:17:15,269][__main__][INFO] - Train Instance Accuracy: 0.639045
+[2026-10-03 05:17:15,269][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:17:20,366][__main__][INFO] - Current Epoch: 14, Test Instance Accuracy: 0.604788, Class Accuracy: 0.562294
+[2026-10-03 05:17:20,366][__main__][INFO] - Best Epoch: 14, Best Instance Accuracy: 0.604788, Class Accuracy: 0.562294
+[2026-10-03 05:17:20,384][__main__][INFO] - Save model...
+[2026-10-03 05:17:20,384][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:17:20,557][__main__][INFO] - Epoch 15/200:
+[2026-10-03 05:18:03,709][__main__][INFO] - Train time 43.149s; throughput 264.01 samples/s
+[2026-10-03 05:18:03,709][__main__][INFO] - Train Instance Accuracy: 0.645629
+[2026-10-03 05:18:03,709][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:18:08,807][__main__][INFO] - Current Epoch: 15, Test Instance Accuracy: 0.649896, Class Accuracy: 0.628122
+[2026-10-03 05:18:08,807][__main__][INFO] - Best Epoch: 15, Best Instance Accuracy: 0.649896, Class Accuracy: 0.628122
+[2026-10-03 05:18:08,810][__main__][INFO] - Save model...
+[2026-10-03 05:18:08,810][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:18:09,064][__main__][INFO] - Epoch 16/200:
+[2026-10-03 05:18:52,219][__main__][INFO] - Train time 43.152s; throughput 263.99 samples/s
+[2026-10-03 05:18:52,219][__main__][INFO] - Train Instance Accuracy: 0.650544
+[2026-10-03 05:18:52,219][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:18:57,316][__main__][INFO] - Current Epoch: 16, Test Instance Accuracy: 0.620402, Class Accuracy: 0.595682
+[2026-10-03 05:18:57,317][__main__][INFO] - Best Epoch: 15, Best Instance Accuracy: 0.649896, Class Accuracy: 0.628122
+[2026-10-03 05:18:57,319][__main__][INFO] - Epoch 17/200:
+[2026-10-03 05:19:40,448][__main__][INFO] - Train time 43.127s; throughput 264.15 samples/s
+[2026-10-03 05:19:40,448][__main__][INFO] - Train Instance Accuracy: 0.666169
+[2026-10-03 05:19:40,448][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:19:45,545][__main__][INFO] - Current Epoch: 17, Test Instance Accuracy: 0.623872, Class Accuracy: 0.589133
+[2026-10-03 05:19:45,545][__main__][INFO] - Best Epoch: 15, Best Instance Accuracy: 0.649896, Class Accuracy: 0.628122
+[2026-10-03 05:19:45,547][__main__][INFO] - Epoch 18/200:
+[2026-10-03 05:20:28,665][__main__][INFO] - Train time 43.116s; throughput 264.22 samples/s
+[2026-10-03 05:20:28,666][__main__][INFO] - Train Instance Accuracy: 0.680478
+[2026-10-03 05:20:28,666][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:20:33,762][__main__][INFO] - Current Epoch: 18, Test Instance Accuracy: 0.671756, Class Accuracy: 0.623458
+[2026-10-03 05:20:33,762][__main__][INFO] - Best Epoch: 18, Best Instance Accuracy: 0.671756, Class Accuracy: 0.628122
+[2026-10-03 05:20:33,765][__main__][INFO] - Save model...
+[2026-10-03 05:20:33,765][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:20:33,931][__main__][INFO] - Epoch 19/200:
+[2026-10-03 05:21:17,062][__main__][INFO] - Train time 43.128s; throughput 264.14 samples/s
+[2026-10-03 05:21:17,062][__main__][INFO] - Train Instance Accuracy: 0.695049
+[2026-10-03 05:21:17,062][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:21:22,168][__main__][INFO] - Current Epoch: 19, Test Instance Accuracy: 0.675226, Class Accuracy: 0.647111
+[2026-10-03 05:21:22,168][__main__][INFO] - Best Epoch: 19, Best Instance Accuracy: 0.675226, Class Accuracy: 0.647111
+[2026-10-03 05:21:22,171][__main__][INFO] - Save model...
+[2026-10-03 05:21:22,171][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:21:22,336][__main__][INFO] - Epoch 20/200:
+[2026-10-03 05:22:05,469][__main__][INFO] - Train time 43.130s; throughput 264.13 samples/s
+[2026-10-03 05:22:05,469][__main__][INFO] - Train Instance Accuracy: 0.704968
+[2026-10-03 05:22:05,469][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:22:10,564][__main__][INFO] - Current Epoch: 20, Test Instance Accuracy: 0.665857, Class Accuracy: 0.641084
+[2026-10-03 05:22:10,565][__main__][INFO] - Best Epoch: 19, Best Instance Accuracy: 0.675226, Class Accuracy: 0.647111
+[2026-10-03 05:22:10,567][__main__][INFO] - Save model...
+[2026-10-03 05:22:10,567][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:22:10,760][__main__][INFO] - Epoch 21/200:
+[2026-10-03 05:22:53,895][__main__][INFO] - Train time 43.133s; throughput 264.12 samples/s
+[2026-10-03 05:22:53,895][__main__][INFO] - Train Instance Accuracy: 0.707602
+[2026-10-03 05:22:53,896][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:22:58,994][__main__][INFO] - Current Epoch: 21, Test Instance Accuracy: 0.689105, Class Accuracy: 0.660522
+[2026-10-03 05:22:58,994][__main__][INFO] - Best Epoch: 21, Best Instance Accuracy: 0.689105, Class Accuracy: 0.660522
+[2026-10-03 05:22:58,997][__main__][INFO] - Save model...
+[2026-10-03 05:22:58,997][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:22:59,172][__main__][INFO] - Epoch 22/200:
+[2026-10-03 05:23:42,278][__main__][INFO] - Train time 43.103s; throughput 264.30 samples/s
+[2026-10-03 05:23:42,278][__main__][INFO] - Train Instance Accuracy: 0.732356
+[2026-10-03 05:23:42,278][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:23:47,376][__main__][INFO] - Current Epoch: 22, Test Instance Accuracy: 0.665510, Class Accuracy: 0.656848
+[2026-10-03 05:23:47,376][__main__][INFO] - Best Epoch: 21, Best Instance Accuracy: 0.689105, Class Accuracy: 0.660522
+[2026-10-03 05:23:47,378][__main__][INFO] - Epoch 23/200:
+[2026-10-03 05:24:30,558][__main__][INFO] - Train time 43.178s; throughput 263.84 samples/s
+[2026-10-03 05:24:30,558][__main__][INFO] - Train Instance Accuracy: 0.728494
+[2026-10-03 05:24:30,558][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:24:35,654][__main__][INFO] - Current Epoch: 23, Test Instance Accuracy: 0.676266, Class Accuracy: 0.643346
+[2026-10-03 05:24:35,654][__main__][INFO] - Best Epoch: 21, Best Instance Accuracy: 0.689105, Class Accuracy: 0.660522
+[2026-10-03 05:24:35,665][__main__][INFO] - Epoch 24/200:
+[2026-10-03 05:25:18,864][__main__][INFO] - Train time 43.197s; throughput 263.72 samples/s
+[2026-10-03 05:25:18,864][__main__][INFO] - Train Instance Accuracy: 0.735428
+[2026-10-03 05:25:18,864][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:25:24,010][__main__][INFO] - Current Epoch: 24, Test Instance Accuracy: 0.694656, Class Accuracy: 0.677677
+[2026-10-03 05:25:24,010][__main__][INFO] - Best Epoch: 24, Best Instance Accuracy: 0.694656, Class Accuracy: 0.677677
+[2026-10-03 05:25:24,013][__main__][INFO] - Save model...
+[2026-10-03 05:25:24,013][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:25:24,597][__main__][INFO] - Epoch 25/200:
+[2026-10-03 05:26:07,725][__main__][INFO] - Train time 43.125s; throughput 264.16 samples/s
+[2026-10-03 05:26:07,725][__main__][INFO] - Train Instance Accuracy: 0.749649
+[2026-10-03 05:26:07,725][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:26:12,820][__main__][INFO] - Current Epoch: 25, Test Instance Accuracy: 0.690840, Class Accuracy: 0.669636
+[2026-10-03 05:26:12,821][__main__][INFO] - Best Epoch: 24, Best Instance Accuracy: 0.694656, Class Accuracy: 0.677677
+[2026-10-03 05:26:12,823][__main__][INFO] - Epoch 26/200:
+[2026-10-03 05:26:55,939][__main__][INFO] - Train time 43.114s; throughput 264.23 samples/s
+[2026-10-03 05:26:55,939][__main__][INFO] - Train Instance Accuracy: 0.748069
+[2026-10-03 05:26:55,939][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:27:01,037][__main__][INFO] - Current Epoch: 26, Test Instance Accuracy: 0.696044, Class Accuracy: 0.672812
+[2026-10-03 05:27:01,037][__main__][INFO] - Best Epoch: 26, Best Instance Accuracy: 0.696044, Class Accuracy: 0.677677
+[2026-10-03 05:27:01,039][__main__][INFO] - Save model...
+[2026-10-03 05:27:01,039][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:27:01,206][__main__][INFO] - Epoch 27/200:
+[2026-10-03 05:27:44,287][__main__][INFO] - Train time 43.078s; throughput 264.45 samples/s
+[2026-10-03 05:27:44,287][__main__][INFO] - Train Instance Accuracy: 0.761675
+[2026-10-03 05:27:44,287][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:27:49,387][__main__][INFO] - Current Epoch: 27, Test Instance Accuracy: 0.691534, Class Accuracy: 0.672246
+[2026-10-03 05:27:49,387][__main__][INFO] - Best Epoch: 26, Best Instance Accuracy: 0.696044, Class Accuracy: 0.677677
+[2026-10-03 05:27:49,390][__main__][INFO] - Epoch 28/200:
+[2026-10-03 05:28:32,504][__main__][INFO] - Train time 43.112s; throughput 264.24 samples/s
+[2026-10-03 05:28:32,504][__main__][INFO] - Train Instance Accuracy: 0.762465
+[2026-10-03 05:28:32,504][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:28:37,600][__main__][INFO] - Current Epoch: 28, Test Instance Accuracy: 0.693269, Class Accuracy: 0.670299
+[2026-10-03 05:28:37,600][__main__][INFO] - Best Epoch: 26, Best Instance Accuracy: 0.696044, Class Accuracy: 0.677677
+[2026-10-03 05:28:37,602][__main__][INFO] - Epoch 29/200:
+[2026-10-03 05:29:20,803][__main__][INFO] - Train time 43.199s; throughput 263.71 samples/s
+[2026-10-03 05:29:20,803][__main__][INFO] - Train Instance Accuracy: 0.769575
+[2026-10-03 05:29:20,803][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:29:25,899][__main__][INFO] - Current Epoch: 29, Test Instance Accuracy: 0.702637, Class Accuracy: 0.680547
+[2026-10-03 05:29:25,899][__main__][INFO] - Best Epoch: 29, Best Instance Accuracy: 0.702637, Class Accuracy: 0.680547
+[2026-10-03 05:29:25,901][__main__][INFO] - Save model...
+[2026-10-03 05:29:25,901][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:29:26,081][__main__][INFO] - Epoch 30/200:
+[2026-10-03 05:30:09,223][__main__][INFO] - Train time 43.139s; throughput 264.08 samples/s
+[2026-10-03 05:30:09,223][__main__][INFO] - Train Instance Accuracy: 0.778441
+[2026-10-03 05:30:09,223][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:30:14,323][__main__][INFO] - Current Epoch: 30, Test Instance Accuracy: 0.712700, Class Accuracy: 0.684959
+[2026-10-03 05:30:14,323][__main__][INFO] - Best Epoch: 30, Best Instance Accuracy: 0.712700, Class Accuracy: 0.684959
+[2026-10-03 05:30:14,325][__main__][INFO] - Save model...
+[2026-10-03 05:30:14,325][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:30:14,748][__main__][INFO] - Epoch 31/200:
+[2026-10-03 05:30:57,959][__main__][INFO] - Train time 43.208s; throughput 263.66 samples/s
+[2026-10-03 05:30:57,959][__main__][INFO] - Train Instance Accuracy: 0.776861
+[2026-10-03 05:30:57,959][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:31:03,056][__main__][INFO] - Current Epoch: 31, Test Instance Accuracy: 0.684594, Class Accuracy: 0.643376
+[2026-10-03 05:31:03,056][__main__][INFO] - Best Epoch: 30, Best Instance Accuracy: 0.712700, Class Accuracy: 0.684959
+[2026-10-03 05:31:03,106][__main__][INFO] - Epoch 32/200:
+[2026-10-03 05:31:46,263][__main__][INFO] - Train time 43.155s; throughput 263.98 samples/s
+[2026-10-03 05:31:46,263][__main__][INFO] - Train Instance Accuracy: 0.789414
+[2026-10-03 05:31:46,263][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:31:51,366][__main__][INFO] - Current Epoch: 32, Test Instance Accuracy: 0.659958, Class Accuracy: 0.625259
+[2026-10-03 05:31:51,366][__main__][INFO] - Best Epoch: 30, Best Instance Accuracy: 0.712700, Class Accuracy: 0.684959
+[2026-10-03 05:31:51,368][__main__][INFO] - Epoch 33/200:
+[2026-10-03 05:32:34,540][__main__][INFO] - Train time 43.170s; throughput 263.89 samples/s
+[2026-10-03 05:32:34,540][__main__][INFO] - Train Instance Accuracy: 0.792310
+[2026-10-03 05:32:34,541][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:32:39,639][__main__][INFO] - Current Epoch: 33, Test Instance Accuracy: 0.721374, Class Accuracy: 0.694972
+[2026-10-03 05:32:39,639][__main__][INFO] - Best Epoch: 33, Best Instance Accuracy: 0.721374, Class Accuracy: 0.694972
+[2026-10-03 05:32:39,640][__main__][INFO] - Save model...
+[2026-10-03 05:32:39,640][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:32:39,889][__main__][INFO] - Epoch 34/200:
+[2026-10-03 05:33:23,116][__main__][INFO] - Train time 43.224s; throughput 263.56 samples/s
+[2026-10-03 05:33:23,116][__main__][INFO] - Train Instance Accuracy: 0.796963
+[2026-10-03 05:33:23,116][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:33:28,214][__main__][INFO] - Current Epoch: 34, Test Instance Accuracy: 0.710965, Class Accuracy: 0.689759
+[2026-10-03 05:33:28,214][__main__][INFO] - Best Epoch: 33, Best Instance Accuracy: 0.721374, Class Accuracy: 0.694972
+[2026-10-03 05:33:28,223][__main__][INFO] - Epoch 35/200:
+[2026-10-03 05:34:11,490][__main__][INFO] - Train time 43.265s; throughput 263.31 samples/s
+[2026-10-03 05:34:11,491][__main__][INFO] - Train Instance Accuracy: 0.798192
+[2026-10-03 05:34:11,491][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:34:16,590][__main__][INFO] - Current Epoch: 35, Test Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:34:16,590][__main__][INFO] - Best Epoch: 35, Best Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:34:16,592][__main__][INFO] - Save model...
+[2026-10-03 05:34:16,592][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:34:16,761][__main__][INFO] - Epoch 36/200:
+[2026-10-03 05:34:59,930][__main__][INFO] - Train time 43.166s; throughput 263.91 samples/s
+[2026-10-03 05:34:59,930][__main__][INFO] - Train Instance Accuracy: 0.808111
+[2026-10-03 05:34:59,930][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:35:05,028][__main__][INFO] - Current Epoch: 36, Test Instance Accuracy: 0.701943, Class Accuracy: 0.699443
+[2026-10-03 05:35:05,028][__main__][INFO] - Best Epoch: 35, Best Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:35:05,033][__main__][INFO] - Epoch 37/200:
+[2026-10-03 05:35:48,210][__main__][INFO] - Train time 43.174s; throughput 263.86 samples/s
+[2026-10-03 05:35:48,210][__main__][INFO] - Train Instance Accuracy: 0.811183
+[2026-10-03 05:35:48,210][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:35:53,310][__main__][INFO] - Current Epoch: 37, Test Instance Accuracy: 0.717210, Class Accuracy: 0.703123
+[2026-10-03 05:35:53,311][__main__][INFO] - Best Epoch: 35, Best Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:35:53,316][__main__][INFO] - Epoch 38/200:
+[2026-10-03 05:36:36,460][__main__][INFO] - Train time 43.141s; throughput 264.06 samples/s
+[2026-10-03 05:36:36,460][__main__][INFO] - Train Instance Accuracy: 0.820488
+[2026-10-03 05:36:36,460][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:36:41,559][__main__][INFO] - Current Epoch: 38, Test Instance Accuracy: 0.706107, Class Accuracy: 0.674632
+[2026-10-03 05:36:41,559][__main__][INFO] - Best Epoch: 35, Best Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:36:41,569][__main__][INFO] - Epoch 39/200:
+[2026-10-03 05:37:24,758][__main__][INFO] - Train time 43.187s; throughput 263.78 samples/s
+[2026-10-03 05:37:24,759][__main__][INFO] - Train Instance Accuracy: 0.823736
+[2026-10-03 05:37:24,759][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:37:29,858][__main__][INFO] - Current Epoch: 39, Test Instance Accuracy: 0.722068, Class Accuracy: 0.687593
+[2026-10-03 05:37:29,858][__main__][INFO] - Best Epoch: 35, Best Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:37:29,860][__main__][INFO] - Epoch 40/200:
+[2026-10-03 05:38:13,000][__main__][INFO] - Train time 43.137s; throughput 264.09 samples/s
+[2026-10-03 05:38:13,000][__main__][INFO] - Train Instance Accuracy: 0.817767
+[2026-10-03 05:38:13,000][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:38:18,100][__main__][INFO] - Current Epoch: 40, Test Instance Accuracy: 0.725191, Class Accuracy: 0.704129
+[2026-10-03 05:38:18,100][__main__][INFO] - Best Epoch: 35, Best Instance Accuracy: 0.732824, Class Accuracy: 0.721822
+[2026-10-03 05:38:18,106][__main__][INFO] - Save model...
+[2026-10-03 05:38:18,106][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:38:19,115][__main__][INFO] - Epoch 41/200:
+[2026-10-03 05:39:02,267][__main__][INFO] - Train time 43.149s; throughput 264.01 samples/s
+[2026-10-03 05:39:02,267][__main__][INFO] - Train Instance Accuracy: 0.831022
+[2026-10-03 05:39:02,267][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:39:07,367][__main__][INFO] - Current Epoch: 41, Test Instance Accuracy: 0.736641, Class Accuracy: 0.719928
+[2026-10-03 05:39:07,367][__main__][INFO] - Best Epoch: 41, Best Instance Accuracy: 0.736641, Class Accuracy: 0.721822
+[2026-10-03 05:39:07,368][__main__][INFO] - Save model...
+[2026-10-03 05:39:07,368][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:39:08,549][__main__][INFO] - Epoch 42/200:
+[2026-10-03 05:39:51,676][__main__][INFO] - Train time 43.124s; throughput 264.17 samples/s
+[2026-10-03 05:39:51,676][__main__][INFO] - Train Instance Accuracy: 0.828652
+[2026-10-03 05:39:51,676][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:39:56,773][__main__][INFO] - Current Epoch: 42, Test Instance Accuracy: 0.717904, Class Accuracy: 0.699047
+[2026-10-03 05:39:56,774][__main__][INFO] - Best Epoch: 41, Best Instance Accuracy: 0.736641, Class Accuracy: 0.721822
+[2026-10-03 05:39:56,775][__main__][INFO] - Epoch 43/200:
+[2026-10-03 05:40:39,881][__main__][INFO] - Train time 43.104s; throughput 264.29 samples/s
+[2026-10-03 05:40:39,882][__main__][INFO] - Train Instance Accuracy: 0.834182
+[2026-10-03 05:40:39,882][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:40:44,979][__main__][INFO] - Current Epoch: 43, Test Instance Accuracy: 0.733518, Class Accuracy: 0.707960
+[2026-10-03 05:40:44,979][__main__][INFO] - Best Epoch: 41, Best Instance Accuracy: 0.736641, Class Accuracy: 0.721822
+[2026-10-03 05:40:44,982][__main__][INFO] - Epoch 44/200:
+[2026-10-03 05:41:28,218][__main__][INFO] - Train time 43.235s; throughput 263.49 samples/s
+[2026-10-03 05:41:28,219][__main__][INFO] - Train Instance Accuracy: 0.838483
+[2026-10-03 05:41:28,219][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:41:33,317][__main__][INFO] - Current Epoch: 44, Test Instance Accuracy: 0.748786, Class Accuracy: 0.716541
+[2026-10-03 05:41:33,317][__main__][INFO] - Best Epoch: 44, Best Instance Accuracy: 0.748786, Class Accuracy: 0.721822
+[2026-10-03 05:41:34,811][__main__][INFO] - Save model...
+[2026-10-03 05:41:34,812][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:41:35,151][__main__][INFO] - Epoch 45/200:
+[2026-10-03 05:42:18,365][__main__][INFO] - Train time 43.211s; throughput 263.64 samples/s
+[2026-10-03 05:42:18,365][__main__][INFO] - Train Instance Accuracy: 0.841029
+[2026-10-03 05:42:18,365][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:42:23,463][__main__][INFO] - Current Epoch: 45, Test Instance Accuracy: 0.745663, Class Accuracy: 0.727156
+[2026-10-03 05:42:23,463][__main__][INFO] - Best Epoch: 44, Best Instance Accuracy: 0.748786, Class Accuracy: 0.727156
+[2026-10-03 05:42:24,348][__main__][INFO] - Epoch 46/200:
+[2026-10-03 05:43:07,581][__main__][INFO] - Train time 43.230s; throughput 263.52 samples/s
+[2026-10-03 05:43:07,581][__main__][INFO] - Train Instance Accuracy: 0.842872
+[2026-10-03 05:43:07,582][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:43:12,684][__main__][INFO] - Current Epoch: 46, Test Instance Accuracy: 0.723456, Class Accuracy: 0.703894
+[2026-10-03 05:43:12,684][__main__][INFO] - Best Epoch: 44, Best Instance Accuracy: 0.748786, Class Accuracy: 0.727156
+[2026-10-03 05:43:13,260][__main__][INFO] - Epoch 47/200:
+[2026-10-03 05:43:56,468][__main__][INFO] - Train time 43.205s; throughput 263.67 samples/s
+[2026-10-03 05:43:56,468][__main__][INFO] - Train Instance Accuracy: 0.855513
+[2026-10-03 05:43:56,468][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:44:01,567][__main__][INFO] - Current Epoch: 47, Test Instance Accuracy: 0.724844, Class Accuracy: 0.704828
+[2026-10-03 05:44:01,567][__main__][INFO] - Best Epoch: 44, Best Instance Accuracy: 0.748786, Class Accuracy: 0.727156
+[2026-10-03 05:44:01,569][__main__][INFO] - Epoch 48/200:
+[2026-10-03 05:44:44,731][__main__][INFO] - Train time 43.160s; throughput 263.95 samples/s
+[2026-10-03 05:44:44,731][__main__][INFO] - Train Instance Accuracy: 0.849368
+[2026-10-03 05:44:44,731][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:44:49,832][__main__][INFO] - Current Epoch: 48, Test Instance Accuracy: 0.734906, Class Accuracy: 0.708838
+[2026-10-03 05:44:49,833][__main__][INFO] - Best Epoch: 44, Best Instance Accuracy: 0.748786, Class Accuracy: 0.727156
+[2026-10-03 05:44:49,892][__main__][INFO] - Epoch 49/200:
+[2026-10-03 05:45:33,070][__main__][INFO] - Train time 43.176s; throughput 263.85 samples/s
+[2026-10-03 05:45:33,070][__main__][INFO] - Train Instance Accuracy: 0.852791
+[2026-10-03 05:45:33,071][__main__][INFO] - Train learning rate is 0.004
+[2026-10-03 05:45:38,169][__main__][INFO] - Current Epoch: 49, Test Instance Accuracy: 0.759195, Class Accuracy: 0.749436
+[2026-10-03 05:45:38,169][__main__][INFO] - Best Epoch: 49, Best Instance Accuracy: 0.759195, Class Accuracy: 0.749436
+[2026-10-03 05:45:38,169][__main__][INFO] - Save model...
+[2026-10-03 05:45:38,169][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:45:38,618][__main__][INFO] - Epoch 50/200:
+[2026-10-03 05:46:21,782][__main__][INFO] - Train time 43.161s; throughput 263.94 samples/s
+[2026-10-03 05:46:21,782][__main__][INFO] - Train Instance Accuracy: 0.859814
+[2026-10-03 05:46:21,782][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:46:26,879][__main__][INFO] - Current Epoch: 50, Test Instance Accuracy: 0.754684, Class Accuracy: 0.734646
+[2026-10-03 05:46:26,879][__main__][INFO] - Best Epoch: 49, Best Instance Accuracy: 0.759195, Class Accuracy: 0.749436
+[2026-10-03 05:46:26,881][__main__][INFO] - Save model...
+[2026-10-03 05:46:26,881][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:46:27,047][__main__][INFO] - Epoch 51/200:
+[2026-10-03 05:47:10,209][__main__][INFO] - Train time 43.159s; throughput 263.95 samples/s
+[2026-10-03 05:47:10,209][__main__][INFO] - Train Instance Accuracy: 0.883866
+[2026-10-03 05:47:10,209][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:47:15,308][__main__][INFO] - Current Epoch: 51, Test Instance Accuracy: 0.776544, Class Accuracy: 0.752474
+[2026-10-03 05:47:15,308][__main__][INFO] - Best Epoch: 51, Best Instance Accuracy: 0.776544, Class Accuracy: 0.752474
+[2026-10-03 05:47:15,336][__main__][INFO] - Save model...
+[2026-10-03 05:47:15,336][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:47:15,612][__main__][INFO] - Epoch 52/200:
+[2026-10-03 05:47:58,763][__main__][INFO] - Train time 43.149s; throughput 264.02 samples/s
+[2026-10-03 05:47:58,764][__main__][INFO] - Train Instance Accuracy: 0.892205
+[2026-10-03 05:47:58,764][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:48:03,859][__main__][INFO] - Current Epoch: 52, Test Instance Accuracy: 0.769951, Class Accuracy: 0.755142
+[2026-10-03 05:48:03,859][__main__][INFO] - Best Epoch: 51, Best Instance Accuracy: 0.776544, Class Accuracy: 0.755142
+[2026-10-03 05:48:03,953][__main__][INFO] - Epoch 53/200:
+[2026-10-03 05:48:47,116][__main__][INFO] - Train time 43.161s; throughput 263.94 samples/s
+[2026-10-03 05:48:47,117][__main__][INFO] - Train Instance Accuracy: 0.895629
+[2026-10-03 05:48:47,117][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:48:52,216][__main__][INFO] - Current Epoch: 53, Test Instance Accuracy: 0.781055, Class Accuracy: 0.769225
+[2026-10-03 05:48:52,216][__main__][INFO] - Best Epoch: 53, Best Instance Accuracy: 0.781055, Class Accuracy: 0.769225
+[2026-10-03 05:48:52,385][__main__][INFO] - Save model...
+[2026-10-03 05:48:52,385][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:48:52,558][__main__][INFO] - Epoch 54/200:
+[2026-10-03 05:49:35,636][__main__][INFO] - Train time 43.075s; throughput 264.47 samples/s
+[2026-10-03 05:49:35,636][__main__][INFO] - Train Instance Accuracy: 0.895892
+[2026-10-03 05:49:35,636][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:49:40,732][__main__][INFO] - Current Epoch: 54, Test Instance Accuracy: 0.780014, Class Accuracy: 0.754710
+[2026-10-03 05:49:40,733][__main__][INFO] - Best Epoch: 53, Best Instance Accuracy: 0.781055, Class Accuracy: 0.769225
+[2026-10-03 05:49:40,734][__main__][INFO] - Epoch 55/200:
+[2026-10-03 05:50:24,019][__main__][INFO] - Train time 43.283s; throughput 263.20 samples/s
+[2026-10-03 05:50:24,020][__main__][INFO] - Train Instance Accuracy: 0.902037
+[2026-10-03 05:50:24,020][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:50:29,116][__main__][INFO] - Current Epoch: 55, Test Instance Accuracy: 0.775503, Class Accuracy: 0.755912
+[2026-10-03 05:50:29,116][__main__][INFO] - Best Epoch: 53, Best Instance Accuracy: 0.781055, Class Accuracy: 0.769225
+[2026-10-03 05:50:29,161][__main__][INFO] - Epoch 56/200:
+[2026-10-03 05:51:12,610][__main__][INFO] - Train time 43.447s; throughput 262.21 samples/s
+[2026-10-03 05:51:12,610][__main__][INFO] - Train Instance Accuracy: 0.904758
+[2026-10-03 05:51:12,610][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:51:17,709][__main__][INFO] - Current Epoch: 56, Test Instance Accuracy: 0.771686, Class Accuracy: 0.750787
+[2026-10-03 05:51:17,709][__main__][INFO] - Best Epoch: 53, Best Instance Accuracy: 0.781055, Class Accuracy: 0.769225
+[2026-10-03 05:51:17,836][__main__][INFO] - Epoch 57/200:
+[2026-10-03 05:52:01,009][__main__][INFO] - Train time 43.171s; throughput 263.88 samples/s
+[2026-10-03 05:52:01,010][__main__][INFO] - Train Instance Accuracy: 0.900193
+[2026-10-03 05:52:01,010][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:52:06,106][__main__][INFO] - Current Epoch: 57, Test Instance Accuracy: 0.782096, Class Accuracy: 0.757345
+[2026-10-03 05:52:06,106][__main__][INFO] - Best Epoch: 57, Best Instance Accuracy: 0.782096, Class Accuracy: 0.769225
+[2026-10-03 05:52:06,111][__main__][INFO] - Save model...
+[2026-10-03 05:52:06,111][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:52:06,280][__main__][INFO] - Epoch 58/200:
+[2026-10-03 05:52:49,402][__main__][INFO] - Train time 43.120s; throughput 264.20 samples/s
+[2026-10-03 05:52:49,403][__main__][INFO] - Train Instance Accuracy: 0.901159
+[2026-10-03 05:52:49,403][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:52:54,505][__main__][INFO] - Current Epoch: 58, Test Instance Accuracy: 0.780708, Class Accuracy: 0.759839
+[2026-10-03 05:52:54,505][__main__][INFO] - Best Epoch: 57, Best Instance Accuracy: 0.782096, Class Accuracy: 0.769225
+[2026-10-03 05:52:54,505][__main__][INFO] - Epoch 59/200:
+[2026-10-03 05:53:37,665][__main__][INFO] - Train time 43.157s; throughput 263.96 samples/s
+[2026-10-03 05:53:37,666][__main__][INFO] - Train Instance Accuracy: 0.906689
+[2026-10-03 05:53:37,666][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:53:42,865][__main__][INFO] - Current Epoch: 59, Test Instance Accuracy: 0.775850, Class Accuracy: 0.756441
+[2026-10-03 05:53:42,865][__main__][INFO] - Best Epoch: 57, Best Instance Accuracy: 0.782096, Class Accuracy: 0.769225
+[2026-10-03 05:53:42,869][__main__][INFO] - Epoch 60/200:
+[2026-10-03 05:54:26,091][__main__][INFO] - Train time 43.220s; throughput 263.58 samples/s
+[2026-10-03 05:54:26,092][__main__][INFO] - Train Instance Accuracy: 0.905987
+[2026-10-03 05:54:26,092][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:54:31,189][__main__][INFO] - Current Epoch: 60, Test Instance Accuracy: 0.774115, Class Accuracy: 0.750870
+[2026-10-03 05:54:31,189][__main__][INFO] - Best Epoch: 57, Best Instance Accuracy: 0.782096, Class Accuracy: 0.769225
+[2026-10-03 05:54:31,211][__main__][INFO] - Save model...
+[2026-10-03 05:54:31,212][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:54:31,381][__main__][INFO] - Epoch 61/200:
+[2026-10-03 05:55:15,439][__main__][INFO] - Train time 44.056s; throughput 258.58 samples/s
+[2026-10-03 05:55:15,439][__main__][INFO] - Train Instance Accuracy: 0.903880
+[2026-10-03 05:55:15,439][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:55:20,536][__main__][INFO] - Current Epoch: 61, Test Instance Accuracy: 0.782443, Class Accuracy: 0.759747
+[2026-10-03 05:55:20,537][__main__][INFO] - Best Epoch: 61, Best Instance Accuracy: 0.782443, Class Accuracy: 0.769225
+[2026-10-03 05:55:21,418][__main__][INFO] - Save model...
+[2026-10-03 05:55:21,418][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:55:21,637][__main__][INFO] - Epoch 62/200:
+[2026-10-03 05:56:04,808][__main__][INFO] - Train time 43.168s; throughput 263.90 samples/s
+[2026-10-03 05:56:04,808][__main__][INFO] - Train Instance Accuracy: 0.906689
+[2026-10-03 05:56:04,808][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:56:09,904][__main__][INFO] - Current Epoch: 62, Test Instance Accuracy: 0.769257, Class Accuracy: 0.748305
+[2026-10-03 05:56:09,904][__main__][INFO] - Best Epoch: 61, Best Instance Accuracy: 0.782443, Class Accuracy: 0.769225
+[2026-10-03 05:56:09,906][__main__][INFO] - Epoch 63/200:
+[2026-10-03 05:56:53,028][__main__][INFO] - Train time 43.120s; throughput 264.19 samples/s
+[2026-10-03 05:56:53,028][__main__][INFO] - Train Instance Accuracy: 0.907918
+[2026-10-03 05:56:53,028][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:56:58,125][__main__][INFO] - Current Epoch: 63, Test Instance Accuracy: 0.781055, Class Accuracy: 0.750825
+[2026-10-03 05:56:58,125][__main__][INFO] - Best Epoch: 61, Best Instance Accuracy: 0.782443, Class Accuracy: 0.769225
+[2026-10-03 05:56:58,127][__main__][INFO] - Epoch 64/200:
+[2026-10-03 05:57:41,416][__main__][INFO] - Train time 43.286s; throughput 263.18 samples/s
+[2026-10-03 05:57:41,416][__main__][INFO] - Train Instance Accuracy: 0.907040
+[2026-10-03 05:57:41,416][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:57:46,515][__main__][INFO] - Current Epoch: 64, Test Instance Accuracy: 0.783831, Class Accuracy: 0.761959
+[2026-10-03 05:57:46,515][__main__][INFO] - Best Epoch: 64, Best Instance Accuracy: 0.783831, Class Accuracy: 0.769225
+[2026-10-03 05:57:46,517][__main__][INFO] - Save model...
+[2026-10-03 05:57:46,517][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 05:57:46,688][__main__][INFO] - Epoch 65/200:
+[2026-10-03 05:58:29,853][__main__][INFO] - Train time 43.162s; throughput 263.94 samples/s
+[2026-10-03 05:58:29,853][__main__][INFO] - Train Instance Accuracy: 0.910025
+[2026-10-03 05:58:29,853][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:58:34,950][__main__][INFO] - Current Epoch: 65, Test Instance Accuracy: 0.773768, Class Accuracy: 0.749194
+[2026-10-03 05:58:34,950][__main__][INFO] - Best Epoch: 64, Best Instance Accuracy: 0.783831, Class Accuracy: 0.769225
+[2026-10-03 05:58:34,951][__main__][INFO] - Epoch 66/200:
+[2026-10-03 05:59:18,142][__main__][INFO] - Train time 43.188s; throughput 263.77 samples/s
+[2026-10-03 05:59:18,142][__main__][INFO] - Train Instance Accuracy: 0.913448
+[2026-10-03 05:59:18,142][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 05:59:23,240][__main__][INFO] - Current Epoch: 66, Test Instance Accuracy: 0.764747, Class Accuracy: 0.744830
+[2026-10-03 05:59:23,240][__main__][INFO] - Best Epoch: 64, Best Instance Accuracy: 0.783831, Class Accuracy: 0.769225
+[2026-10-03 05:59:23,242][__main__][INFO] - Epoch 67/200:
+[2026-10-03 06:00:06,501][__main__][INFO] - Train time 43.257s; throughput 263.36 samples/s
+[2026-10-03 06:00:06,501][__main__][INFO] - Train Instance Accuracy: 0.913185
+[2026-10-03 06:00:06,501][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:00:11,597][__main__][INFO] - Current Epoch: 67, Test Instance Accuracy: 0.792852, Class Accuracy: 0.768190
+[2026-10-03 06:00:11,597][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:00:11,600][__main__][INFO] - Save model...
+[2026-10-03 06:00:11,600][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:00:11,786][__main__][INFO] - Epoch 68/200:
+[2026-10-03 06:00:54,968][__main__][INFO] - Train time 43.180s; throughput 263.83 samples/s
+[2026-10-03 06:00:54,969][__main__][INFO] - Train Instance Accuracy: 0.914940
+[2026-10-03 06:00:54,969][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:01:00,065][__main__][INFO] - Current Epoch: 68, Test Instance Accuracy: 0.768563, Class Accuracy: 0.752410
+[2026-10-03 06:01:00,065][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:01:00,067][__main__][INFO] - Epoch 69/200:
+[2026-10-03 06:01:43,234][__main__][INFO] - Train time 43.165s; throughput 263.92 samples/s
+[2026-10-03 06:01:43,234][__main__][INFO] - Train Instance Accuracy: 0.916608
+[2026-10-03 06:01:43,234][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:01:48,332][__main__][INFO] - Current Epoch: 69, Test Instance Accuracy: 0.784178, Class Accuracy: 0.760352
+[2026-10-03 06:01:48,332][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:01:48,335][__main__][INFO] - Epoch 70/200:
+[2026-10-03 06:02:31,496][__main__][INFO] - Train time 43.159s; throughput 263.96 samples/s
+[2026-10-03 06:02:31,496][__main__][INFO] - Train Instance Accuracy: 0.918188
+[2026-10-03 06:02:31,496][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:02:36,592][__main__][INFO] - Current Epoch: 70, Test Instance Accuracy: 0.776197, Class Accuracy: 0.758724
+[2026-10-03 06:02:36,592][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:02:36,594][__main__][INFO] - Save model...
+[2026-10-03 06:02:36,594][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:02:36,764][__main__][INFO] - Epoch 71/200:
+[2026-10-03 06:03:19,912][__main__][INFO] - Train time 43.145s; throughput 264.04 samples/s
+[2026-10-03 06:03:19,912][__main__][INFO] - Train Instance Accuracy: 0.916784
+[2026-10-03 06:03:19,912][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:03:25,009][__main__][INFO] - Current Epoch: 71, Test Instance Accuracy: 0.775156, Class Accuracy: 0.748548
+[2026-10-03 06:03:25,009][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:03:25,012][__main__][INFO] - Epoch 72/200:
+[2026-10-03 06:04:08,333][__main__][INFO] - Train time 43.319s; throughput 262.98 samples/s
+[2026-10-03 06:04:08,333][__main__][INFO] - Train Instance Accuracy: 0.920119
+[2026-10-03 06:04:08,333][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:04:13,428][__main__][INFO] - Current Epoch: 72, Test Instance Accuracy: 0.776544, Class Accuracy: 0.754929
+[2026-10-03 06:04:13,428][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:04:13,454][__main__][INFO] - Epoch 73/200:
+[2026-10-03 06:04:56,664][__main__][INFO] - Train time 43.207s; throughput 263.66 samples/s
+[2026-10-03 06:04:56,664][__main__][INFO] - Train Instance Accuracy: 0.922928
+[2026-10-03 06:04:56,664][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:05:01,760][__main__][INFO] - Current Epoch: 73, Test Instance Accuracy: 0.774115, Class Accuracy: 0.756258
+[2026-10-03 06:05:01,760][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:05:01,763][__main__][INFO] - Epoch 74/200:
+[2026-10-03 06:05:44,918][__main__][INFO] - Train time 43.153s; throughput 263.99 samples/s
+[2026-10-03 06:05:44,919][__main__][INFO] - Train Instance Accuracy: 0.920822
+[2026-10-03 06:05:44,919][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:05:50,017][__main__][INFO] - Current Epoch: 74, Test Instance Accuracy: 0.769951, Class Accuracy: 0.749581
+[2026-10-03 06:05:50,017][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:05:50,020][__main__][INFO] - Epoch 75/200:
+[2026-10-03 06:06:33,129][__main__][INFO] - Train time 43.107s; throughput 264.27 samples/s
+[2026-10-03 06:06:33,130][__main__][INFO] - Train Instance Accuracy: 0.922489
+[2026-10-03 06:06:33,130][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:06:38,227][__main__][INFO] - Current Epoch: 75, Test Instance Accuracy: 0.780708, Class Accuracy: 0.762348
+[2026-10-03 06:06:38,227][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:06:38,230][__main__][INFO] - Epoch 76/200:
+[2026-10-03 06:07:21,376][__main__][INFO] - Train time 43.143s; throughput 264.05 samples/s
+[2026-10-03 06:07:21,376][__main__][INFO] - Train Instance Accuracy: 0.923543
+[2026-10-03 06:07:21,376][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:07:26,472][__main__][INFO] - Current Epoch: 76, Test Instance Accuracy: 0.776891, Class Accuracy: 0.749589
+[2026-10-03 06:07:26,472][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:07:26,491][__main__][INFO] - Epoch 77/200:
+[2026-10-03 06:08:09,635][__main__][INFO] - Train time 43.142s; throughput 264.06 samples/s
+[2026-10-03 06:08:09,635][__main__][INFO] - Train Instance Accuracy: 0.929424
+[2026-10-03 06:08:09,635][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:08:14,733][__main__][INFO] - Current Epoch: 77, Test Instance Accuracy: 0.779667, Class Accuracy: 0.757962
+[2026-10-03 06:08:14,733][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:08:14,764][__main__][INFO] - Epoch 78/200:
+[2026-10-03 06:08:57,905][__main__][INFO] - Train time 43.138s; throughput 264.08 samples/s
+[2026-10-03 06:08:57,905][__main__][INFO] - Train Instance Accuracy: 0.929336
+[2026-10-03 06:08:57,905][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:09:03,003][__main__][INFO] - Current Epoch: 78, Test Instance Accuracy: 0.779320, Class Accuracy: 0.756184
+[2026-10-03 06:09:03,003][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:09:03,005][__main__][INFO] - Epoch 79/200:
+[2026-10-03 06:09:46,165][__main__][INFO] - Train time 43.158s; throughput 263.96 samples/s
+[2026-10-03 06:09:46,165][__main__][INFO] - Train Instance Accuracy: 0.925913
+[2026-10-03 06:09:46,165][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:09:51,266][__main__][INFO] - Current Epoch: 79, Test Instance Accuracy: 0.770298, Class Accuracy: 0.750947
+[2026-10-03 06:09:51,267][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:09:51,269][__main__][INFO] - Epoch 80/200:
+[2026-10-03 06:10:34,504][__main__][INFO] - Train time 43.233s; throughput 263.50 samples/s
+[2026-10-03 06:10:34,504][__main__][INFO] - Train Instance Accuracy: 0.925035
+[2026-10-03 06:10:34,504][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:10:39,600][__main__][INFO] - Current Epoch: 80, Test Instance Accuracy: 0.773421, Class Accuracy: 0.755943
+[2026-10-03 06:10:39,600][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:10:42,667][__main__][INFO] - Save model...
+[2026-10-03 06:10:42,667][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:10:42,911][__main__][INFO] - Epoch 81/200:
+[2026-10-03 06:11:26,052][__main__][INFO] - Train time 43.138s; throughput 264.08 samples/s
+[2026-10-03 06:11:26,052][__main__][INFO] - Train Instance Accuracy: 0.926703
+[2026-10-03 06:11:26,052][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:11:31,150][__main__][INFO] - Current Epoch: 81, Test Instance Accuracy: 0.784525, Class Accuracy: 0.761823
+[2026-10-03 06:11:31,151][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:11:31,178][__main__][INFO] - Epoch 82/200:
+[2026-10-03 06:12:14,322][__main__][INFO] - Train time 43.142s; throughput 264.06 samples/s
+[2026-10-03 06:12:14,322][__main__][INFO] - Train Instance Accuracy: 0.931970
+[2026-10-03 06:12:14,322][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:12:19,420][__main__][INFO] - Current Epoch: 82, Test Instance Accuracy: 0.782443, Class Accuracy: 0.754216
+[2026-10-03 06:12:19,421][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:12:19,875][__main__][INFO] - Epoch 83/200:
+[2026-10-03 06:13:03,064][__main__][INFO] - Train time 43.187s; throughput 263.79 samples/s
+[2026-10-03 06:13:03,065][__main__][INFO] - Train Instance Accuracy: 0.927756
+[2026-10-03 06:13:03,065][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:13:08,162][__main__][INFO] - Current Epoch: 83, Test Instance Accuracy: 0.764053, Class Accuracy: 0.743002
+[2026-10-03 06:13:08,162][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:13:08,164][__main__][INFO] - Epoch 84/200:
+[2026-10-03 06:13:51,331][__main__][INFO] - Train time 43.165s; throughput 263.92 samples/s
+[2026-10-03 06:13:51,331][__main__][INFO] - Train Instance Accuracy: 0.934603
+[2026-10-03 06:13:51,331][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:13:56,429][__main__][INFO] - Current Epoch: 84, Test Instance Accuracy: 0.776197, Class Accuracy: 0.749296
+[2026-10-03 06:13:56,429][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:13:56,431][__main__][INFO] - Epoch 85/200:
+[2026-10-03 06:14:39,540][__main__][INFO] - Train time 43.107s; throughput 264.27 samples/s
+[2026-10-03 06:14:39,541][__main__][INFO] - Train Instance Accuracy: 0.931794
+[2026-10-03 06:14:39,541][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:14:44,636][__main__][INFO] - Current Epoch: 85, Test Instance Accuracy: 0.782096, Class Accuracy: 0.761565
+[2026-10-03 06:14:44,636][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:14:44,639][__main__][INFO] - Epoch 86/200:
+[2026-10-03 06:15:27,834][__main__][INFO] - Train time 43.193s; throughput 263.75 samples/s
+[2026-10-03 06:15:27,834][__main__][INFO] - Train Instance Accuracy: 0.929951
+[2026-10-03 06:15:27,834][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:15:32,931][__main__][INFO] - Current Epoch: 86, Test Instance Accuracy: 0.779667, Class Accuracy: 0.757418
+[2026-10-03 06:15:32,931][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:15:32,934][__main__][INFO] - Epoch 87/200:
+[2026-10-03 06:16:16,012][__main__][INFO] - Train time 43.075s; throughput 264.47 samples/s
+[2026-10-03 06:16:16,012][__main__][INFO] - Train Instance Accuracy: 0.933462
+[2026-10-03 06:16:16,012][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:16:21,106][__main__][INFO] - Current Epoch: 87, Test Instance Accuracy: 0.778626, Class Accuracy: 0.756467
+[2026-10-03 06:16:21,106][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:16:21,108][__main__][INFO] - Epoch 88/200:
+[2026-10-03 06:17:04,787][__main__][INFO] - Train time 43.677s; throughput 260.82 samples/s
+[2026-10-03 06:17:04,788][__main__][INFO] - Train Instance Accuracy: 0.932760
+[2026-10-03 06:17:04,788][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:17:09,883][__main__][INFO] - Current Epoch: 88, Test Instance Accuracy: 0.769951, Class Accuracy: 0.740607
+[2026-10-03 06:17:09,883][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:17:09,890][__main__][INFO] - Epoch 89/200:
+[2026-10-03 06:17:53,040][__main__][INFO] - Train time 43.148s; throughput 264.02 samples/s
+[2026-10-03 06:17:53,040][__main__][INFO] - Train Instance Accuracy: 0.932672
+[2026-10-03 06:17:53,040][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:17:58,137][__main__][INFO] - Current Epoch: 89, Test Instance Accuracy: 0.767870, Class Accuracy: 0.746462
+[2026-10-03 06:17:58,137][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:17:58,140][__main__][INFO] - Epoch 90/200:
+[2026-10-03 06:18:41,333][__main__][INFO] - Train time 43.191s; throughput 263.76 samples/s
+[2026-10-03 06:18:41,333][__main__][INFO] - Train Instance Accuracy: 0.933199
+[2026-10-03 06:18:41,333][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:18:46,429][__main__][INFO] - Current Epoch: 90, Test Instance Accuracy: 0.781055, Class Accuracy: 0.762760
+[2026-10-03 06:18:46,429][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:18:46,432][__main__][INFO] - Save model...
+[2026-10-03 06:18:46,433][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:18:46,603][__main__][INFO] - Epoch 91/200:
+[2026-10-03 06:19:29,761][__main__][INFO] - Train time 43.155s; throughput 263.98 samples/s
+[2026-10-03 06:19:29,761][__main__][INFO] - Train Instance Accuracy: 0.943732
+[2026-10-03 06:19:29,761][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:19:34,858][__main__][INFO] - Current Epoch: 91, Test Instance Accuracy: 0.778973, Class Accuracy: 0.750569
+[2026-10-03 06:19:34,858][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:19:34,877][__main__][INFO] - Epoch 92/200:
+[2026-10-03 06:20:18,010][__main__][INFO] - Train time 43.130s; throughput 264.13 samples/s
+[2026-10-03 06:20:18,010][__main__][INFO] - Train Instance Accuracy: 0.938378
+[2026-10-03 06:20:18,010][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:20:23,104][__main__][INFO] - Current Epoch: 92, Test Instance Accuracy: 0.780014, Class Accuracy: 0.755971
+[2026-10-03 06:20:23,104][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:20:23,159][__main__][INFO] - Epoch 93/200:
+[2026-10-03 06:21:06,985][__main__][INFO] - Train time 43.824s; throughput 259.95 samples/s
+[2026-10-03 06:21:06,985][__main__][INFO] - Train Instance Accuracy: 0.935218
+[2026-10-03 06:21:06,985][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:21:12,083][__main__][INFO] - Current Epoch: 93, Test Instance Accuracy: 0.777585, Class Accuracy: 0.758510
+[2026-10-03 06:21:12,083][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:21:12,086][__main__][INFO] - Epoch 94/200:
+[2026-10-03 06:21:55,243][__main__][INFO] - Train time 43.155s; throughput 263.98 samples/s
+[2026-10-03 06:21:55,243][__main__][INFO] - Train Instance Accuracy: 0.939607
+[2026-10-03 06:21:55,243][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:22:00,340][__main__][INFO] - Current Epoch: 94, Test Instance Accuracy: 0.780708, Class Accuracy: 0.758981
+[2026-10-03 06:22:00,340][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:22:00,344][__main__][INFO] - Epoch 95/200:
+[2026-10-03 06:22:43,481][__main__][INFO] - Train time 43.135s; throughput 264.10 samples/s
+[2026-10-03 06:22:43,482][__main__][INFO] - Train Instance Accuracy: 0.936183
+[2026-10-03 06:22:43,482][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:22:48,581][__main__][INFO] - Current Epoch: 95, Test Instance Accuracy: 0.790770, Class Accuracy: 0.767218
+[2026-10-03 06:22:48,581][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:22:48,582][__main__][INFO] - Epoch 96/200:
+[2026-10-03 06:23:31,688][__main__][INFO] - Train time 43.103s; throughput 264.30 samples/s
+[2026-10-03 06:23:31,688][__main__][INFO] - Train Instance Accuracy: 0.940748
+[2026-10-03 06:23:31,688][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:23:36,790][__main__][INFO] - Current Epoch: 96, Test Instance Accuracy: 0.776544, Class Accuracy: 0.760873
+[2026-10-03 06:23:36,790][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:23:36,792][__main__][INFO] - Epoch 97/200:
+[2026-10-03 06:24:19,986][__main__][INFO] - Train time 43.192s; throughput 263.75 samples/s
+[2026-10-03 06:24:19,986][__main__][INFO] - Train Instance Accuracy: 0.941099
+[2026-10-03 06:24:19,986][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:24:25,085][__main__][INFO] - Current Epoch: 97, Test Instance Accuracy: 0.787994, Class Accuracy: 0.758230
+[2026-10-03 06:24:25,085][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:24:25,087][__main__][INFO] - Epoch 98/200:
+[2026-10-03 06:25:08,290][__main__][INFO] - Train time 43.200s; throughput 263.70 samples/s
+[2026-10-03 06:25:08,290][__main__][INFO] - Train Instance Accuracy: 0.941450
+[2026-10-03 06:25:08,290][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:25:13,434][__main__][INFO] - Current Epoch: 98, Test Instance Accuracy: 0.792158, Class Accuracy: 0.768505
+[2026-10-03 06:25:13,434][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:25:13,769][__main__][INFO] - Epoch 99/200:
+[2026-10-03 06:25:56,909][__main__][INFO] - Train time 43.137s; throughput 264.09 samples/s
+[2026-10-03 06:25:56,909][__main__][INFO] - Train Instance Accuracy: 0.940309
+[2026-10-03 06:25:56,909][__main__][INFO] - Train learning rate is 0.0012
+[2026-10-03 06:26:02,006][__main__][INFO] - Current Epoch: 99, Test Instance Accuracy: 0.768563, Class Accuracy: 0.749335
+[2026-10-03 06:26:02,006][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:26:02,009][__main__][INFO] - Epoch 100/200:
+[2026-10-03 06:26:45,218][__main__][INFO] - Train time 43.207s; throughput 263.66 samples/s
+[2026-10-03 06:26:45,218][__main__][INFO] - Train Instance Accuracy: 0.938553
+[2026-10-03 06:26:45,218][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:26:50,319][__main__][INFO] - Current Epoch: 100, Test Instance Accuracy: 0.776197, Class Accuracy: 0.750751
+[2026-10-03 06:26:50,319][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:26:50,322][__main__][INFO] - Save model...
+[2026-10-03 06:26:50,322][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:26:50,492][__main__][INFO] - Epoch 101/200:
+[2026-10-03 06:27:33,663][__main__][INFO] - Train time 43.167s; throughput 263.90 samples/s
+[2026-10-03 06:27:33,663][__main__][INFO] - Train Instance Accuracy: 0.945225
+[2026-10-03 06:27:33,663][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:27:38,759][__main__][INFO] - Current Epoch: 101, Test Instance Accuracy: 0.786607, Class Accuracy: 0.764407
+[2026-10-03 06:27:38,759][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:27:38,797][__main__][INFO] - Epoch 102/200:
+[2026-10-03 06:28:21,953][__main__][INFO] - Train time 43.154s; throughput 263.99 samples/s
+[2026-10-03 06:28:21,953][__main__][INFO] - Train Instance Accuracy: 0.951018
+[2026-10-03 06:28:21,954][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:28:27,051][__main__][INFO] - Current Epoch: 102, Test Instance Accuracy: 0.783831, Class Accuracy: 0.757743
+[2026-10-03 06:28:27,051][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:28:27,052][__main__][INFO] - Epoch 103/200:
+[2026-10-03 06:29:10,448][__main__][INFO] - Train time 43.394s; throughput 262.53 samples/s
+[2026-10-03 06:29:10,448][__main__][INFO] - Train Instance Accuracy: 0.953213
+[2026-10-03 06:29:10,448][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:29:15,544][__main__][INFO] - Current Epoch: 103, Test Instance Accuracy: 0.787300, Class Accuracy: 0.762293
+[2026-10-03 06:29:15,544][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:29:15,561][__main__][INFO] - Epoch 104/200:
+[2026-10-03 06:29:58,701][__main__][INFO] - Train time 43.138s; throughput 264.08 samples/s
+[2026-10-03 06:29:58,701][__main__][INFO] - Train Instance Accuracy: 0.952247
+[2026-10-03 06:29:58,701][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:30:03,797][__main__][INFO] - Current Epoch: 104, Test Instance Accuracy: 0.780708, Class Accuracy: 0.758023
+[2026-10-03 06:30:03,797][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:30:04,023][__main__][INFO] - Epoch 105/200:
+[2026-10-03 06:30:47,189][__main__][INFO] - Train time 43.163s; throughput 263.93 samples/s
+[2026-10-03 06:30:47,189][__main__][INFO] - Train Instance Accuracy: 0.954705
+[2026-10-03 06:30:47,189][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:30:52,287][__main__][INFO] - Current Epoch: 105, Test Instance Accuracy: 0.792505, Class Accuracy: 0.767632
+[2026-10-03 06:30:52,288][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:30:52,290][__main__][INFO] - Epoch 106/200:
+[2026-10-03 06:31:35,423][__main__][INFO] - Train time 43.131s; throughput 264.13 samples/s
+[2026-10-03 06:31:35,423][__main__][INFO] - Train Instance Accuracy: 0.953476
+[2026-10-03 06:31:35,423][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:31:40,520][__main__][INFO] - Current Epoch: 106, Test Instance Accuracy: 0.782790, Class Accuracy: 0.760742
+[2026-10-03 06:31:40,520][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:31:40,552][__main__][INFO] - Epoch 107/200:
+[2026-10-03 06:32:23,684][__main__][INFO] - Train time 43.129s; throughput 264.14 samples/s
+[2026-10-03 06:32:23,684][__main__][INFO] - Train Instance Accuracy: 0.954091
+[2026-10-03 06:32:23,684][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:32:28,781][__main__][INFO] - Current Epoch: 107, Test Instance Accuracy: 0.790770, Class Accuracy: 0.767192
+[2026-10-03 06:32:28,781][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:32:28,783][__main__][INFO] - Epoch 108/200:
+[2026-10-03 06:33:12,047][__main__][INFO] - Train time 43.262s; throughput 263.32 samples/s
+[2026-10-03 06:33:12,048][__main__][INFO] - Train Instance Accuracy: 0.952335
+[2026-10-03 06:33:12,048][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:33:17,144][__main__][INFO] - Current Epoch: 108, Test Instance Accuracy: 0.782790, Class Accuracy: 0.766290
+[2026-10-03 06:33:17,144][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:33:17,146][__main__][INFO] - Epoch 109/200:
+[2026-10-03 06:34:00,305][__main__][INFO] - Train time 43.157s; throughput 263.97 samples/s
+[2026-10-03 06:34:00,306][__main__][INFO] - Train Instance Accuracy: 0.955671
+[2026-10-03 06:34:00,306][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:34:05,403][__main__][INFO] - Current Epoch: 109, Test Instance Accuracy: 0.780014, Class Accuracy: 0.756529
+[2026-10-03 06:34:05,403][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:34:05,405][__main__][INFO] - Epoch 110/200:
+[2026-10-03 06:34:48,563][__main__][INFO] - Train time 43.155s; throughput 263.98 samples/s
+[2026-10-03 06:34:48,563][__main__][INFO] - Train Instance Accuracy: 0.955758
+[2026-10-03 06:34:48,563][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:34:53,661][__main__][INFO] - Current Epoch: 110, Test Instance Accuracy: 0.789035, Class Accuracy: 0.765051
+[2026-10-03 06:34:53,661][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:34:53,664][__main__][INFO] - Save model...
+[2026-10-03 06:34:53,664][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:34:53,837][__main__][INFO] - Epoch 111/200:
+[2026-10-03 06:35:36,997][__main__][INFO] - Train time 43.157s; throughput 263.96 samples/s
+[2026-10-03 06:35:36,997][__main__][INFO] - Train Instance Accuracy: 0.954529
+[2026-10-03 06:35:36,997][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:35:42,097][__main__][INFO] - Current Epoch: 111, Test Instance Accuracy: 0.788341, Class Accuracy: 0.766186
+[2026-10-03 06:35:42,097][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:35:42,098][__main__][INFO] - Epoch 112/200:
+[2026-10-03 06:36:25,241][__main__][INFO] - Train time 43.141s; throughput 264.06 samples/s
+[2026-10-03 06:36:25,241][__main__][INFO] - Train Instance Accuracy: 0.956461
+[2026-10-03 06:36:25,241][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:36:30,338][__main__][INFO] - Current Epoch: 112, Test Instance Accuracy: 0.782443, Class Accuracy: 0.757331
+[2026-10-03 06:36:30,338][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.769225
+[2026-10-03 06:36:30,340][__main__][INFO] - Epoch 113/200:
+[2026-10-03 06:37:13,576][__main__][INFO] - Train time 43.234s; throughput 263.49 samples/s
+[2026-10-03 06:37:13,577][__main__][INFO] - Train Instance Accuracy: 0.954793
+[2026-10-03 06:37:13,577][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:37:18,674][__main__][INFO] - Current Epoch: 113, Test Instance Accuracy: 0.791117, Class Accuracy: 0.771553
+[2026-10-03 06:37:18,674][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.771553
+[2026-10-03 06:37:18,693][__main__][INFO] - Epoch 114/200:
+[2026-10-03 06:38:01,808][__main__][INFO] - Train time 43.113s; throughput 264.23 samples/s
+[2026-10-03 06:38:01,809][__main__][INFO] - Train Instance Accuracy: 0.955583
+[2026-10-03 06:38:01,809][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:38:06,907][__main__][INFO] - Current Epoch: 114, Test Instance Accuracy: 0.792505, Class Accuracy: 0.768362
+[2026-10-03 06:38:06,907][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.771553
+[2026-10-03 06:38:06,924][__main__][INFO] - Epoch 115/200:
+[2026-10-03 06:38:50,059][__main__][INFO] - Train time 43.133s; throughput 264.11 samples/s
+[2026-10-03 06:38:50,059][__main__][INFO] - Train Instance Accuracy: 0.956812
+[2026-10-03 06:38:50,059][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:38:55,157][__main__][INFO] - Current Epoch: 115, Test Instance Accuracy: 0.785219, Class Accuracy: 0.757945
+[2026-10-03 06:38:55,157][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.771553
+[2026-10-03 06:38:55,158][__main__][INFO] - Epoch 116/200:
+[2026-10-03 06:39:38,319][__main__][INFO] - Train time 43.159s; throughput 263.96 samples/s
+[2026-10-03 06:39:38,320][__main__][INFO] - Train Instance Accuracy: 0.957865
+[2026-10-03 06:39:38,320][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:39:43,417][__main__][INFO] - Current Epoch: 116, Test Instance Accuracy: 0.787300, Class Accuracy: 0.763727
+[2026-10-03 06:39:43,417][__main__][INFO] - Best Epoch: 67, Best Instance Accuracy: 0.792852, Class Accuracy: 0.771553
+[2026-10-03 06:39:43,419][__main__][INFO] - Epoch 117/200:
+[2026-10-03 06:40:26,617][__main__][INFO] - Train time 43.195s; throughput 263.73 samples/s
+[2026-10-03 06:40:26,617][__main__][INFO] - Train Instance Accuracy: 0.956812
+[2026-10-03 06:40:26,617][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:40:31,716][__main__][INFO] - Current Epoch: 117, Test Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:40:31,716][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:40:31,720][__main__][INFO] - Save model...
+[2026-10-03 06:40:31,720][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:40:31,889][__main__][INFO] - Epoch 118/200:
+[2026-10-03 06:41:17,462][__main__][INFO] - Train time 45.569s; throughput 249.99 samples/s
+[2026-10-03 06:41:17,462][__main__][INFO] - Train Instance Accuracy: 0.956110
+[2026-10-03 06:41:17,462][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:41:22,559][__main__][INFO] - Current Epoch: 118, Test Instance Accuracy: 0.788688, Class Accuracy: 0.759439
+[2026-10-03 06:41:22,559][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:41:22,563][__main__][INFO] - Epoch 119/200:
+[2026-10-03 06:42:05,787][__main__][INFO] - Train time 43.222s; throughput 263.57 samples/s
+[2026-10-03 06:42:05,788][__main__][INFO] - Train Instance Accuracy: 0.954793
+[2026-10-03 06:42:05,788][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:42:10,885][__main__][INFO] - Current Epoch: 119, Test Instance Accuracy: 0.786607, Class Accuracy: 0.761528
+[2026-10-03 06:42:10,885][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:42:10,890][__main__][INFO] - Epoch 120/200:
+[2026-10-03 06:42:54,024][__main__][INFO] - Train time 43.132s; throughput 264.12 samples/s
+[2026-10-03 06:42:54,025][__main__][INFO] - Train Instance Accuracy: 0.958216
+[2026-10-03 06:42:54,025][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:42:59,123][__main__][INFO] - Current Epoch: 120, Test Instance Accuracy: 0.781055, Class Accuracy: 0.757122
+[2026-10-03 06:42:59,123][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:42:59,126][__main__][INFO] - Save model...
+[2026-10-03 06:42:59,126][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:42:59,295][__main__][INFO] - Epoch 121/200:
+[2026-10-03 06:43:42,495][__main__][INFO] - Train time 43.198s; throughput 263.72 samples/s
+[2026-10-03 06:43:42,495][__main__][INFO] - Train Instance Accuracy: 0.955144
+[2026-10-03 06:43:42,495][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:43:47,594][__main__][INFO] - Current Epoch: 121, Test Instance Accuracy: 0.783831, Class Accuracy: 0.765096
+[2026-10-03 06:43:47,594][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:43:47,616][__main__][INFO] - Epoch 122/200:
+[2026-10-03 06:44:30,752][__main__][INFO] - Train time 43.133s; throughput 264.11 samples/s
+[2026-10-03 06:44:30,752][__main__][INFO] - Train Instance Accuracy: 0.958480
+[2026-10-03 06:44:30,752][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:44:35,849][__main__][INFO] - Current Epoch: 122, Test Instance Accuracy: 0.792505, Class Accuracy: 0.770820
+[2026-10-03 06:44:35,849][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:44:35,861][__main__][INFO] - Epoch 123/200:
+[2026-10-03 06:45:19,096][__main__][INFO] - Train time 43.232s; throughput 263.51 samples/s
+[2026-10-03 06:45:19,096][__main__][INFO] - Train Instance Accuracy: 0.963044
+[2026-10-03 06:45:19,096][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:45:24,194][__main__][INFO] - Current Epoch: 123, Test Instance Accuracy: 0.782443, Class Accuracy: 0.762317
+[2026-10-03 06:45:24,194][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:45:24,196][__main__][INFO] - Epoch 124/200:
+[2026-10-03 06:46:07,357][__main__][INFO] - Train time 43.158s; throughput 263.96 samples/s
+[2026-10-03 06:46:07,357][__main__][INFO] - Train Instance Accuracy: 0.957338
+[2026-10-03 06:46:07,357][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:46:12,456][__main__][INFO] - Current Epoch: 124, Test Instance Accuracy: 0.780014, Class Accuracy: 0.753352
+[2026-10-03 06:46:12,456][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:46:12,855][__main__][INFO] - Epoch 125/200:
+[2026-10-03 06:46:56,050][__main__][INFO] - Train time 43.192s; throughput 263.75 samples/s
+[2026-10-03 06:46:56,051][__main__][INFO] - Train Instance Accuracy: 0.960147
+[2026-10-03 06:46:56,051][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:47:01,148][__main__][INFO] - Current Epoch: 125, Test Instance Accuracy: 0.781749, Class Accuracy: 0.762241
+[2026-10-03 06:47:01,148][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:47:01,151][__main__][INFO] - Epoch 126/200:
+[2026-10-03 06:47:44,364][__main__][INFO] - Train time 43.211s; throughput 263.64 samples/s
+[2026-10-03 06:47:44,364][__main__][INFO] - Train Instance Accuracy: 0.958304
+[2026-10-03 06:47:44,365][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:47:49,465][__main__][INFO] - Current Epoch: 126, Test Instance Accuracy: 0.782443, Class Accuracy: 0.755846
+[2026-10-03 06:47:49,466][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:47:49,480][__main__][INFO] - Epoch 127/200:
+[2026-10-03 06:48:32,636][__main__][INFO] - Train time 43.154s; throughput 263.99 samples/s
+[2026-10-03 06:48:32,636][__main__][INFO] - Train Instance Accuracy: 0.960411
+[2026-10-03 06:48:32,636][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:48:37,734][__main__][INFO] - Current Epoch: 127, Test Instance Accuracy: 0.771686, Class Accuracy: 0.750061
+[2026-10-03 06:48:37,734][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:48:37,754][__main__][INFO] - Epoch 128/200:
+[2026-10-03 06:49:20,999][__main__][INFO] - Train time 43.242s; throughput 263.45 samples/s
+[2026-10-03 06:49:20,999][__main__][INFO] - Train Instance Accuracy: 0.957426
+[2026-10-03 06:49:20,999][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:49:26,096][__main__][INFO] - Current Epoch: 128, Test Instance Accuracy: 0.782096, Class Accuracy: 0.755718
+[2026-10-03 06:49:26,096][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:49:26,099][__main__][INFO] - Epoch 129/200:
+[2026-10-03 06:50:09,295][__main__][INFO] - Train time 43.195s; throughput 263.74 samples/s
+[2026-10-03 06:50:09,296][__main__][INFO] - Train Instance Accuracy: 0.957602
+[2026-10-03 06:50:09,296][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:50:14,393][__main__][INFO] - Current Epoch: 129, Test Instance Accuracy: 0.784872, Class Accuracy: 0.762163
+[2026-10-03 06:50:14,394][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:50:14,398][__main__][INFO] - Epoch 130/200:
+[2026-10-03 06:50:57,615][__main__][INFO] - Train time 43.214s; throughput 263.62 samples/s
+[2026-10-03 06:50:57,615][__main__][INFO] - Train Instance Accuracy: 0.964273
+[2026-10-03 06:50:57,615][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:51:02,712][__main__][INFO] - Current Epoch: 130, Test Instance Accuracy: 0.788341, Class Accuracy: 0.765724
+[2026-10-03 06:51:02,712][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:51:02,730][__main__][INFO] - Save model...
+[2026-10-03 06:51:02,730][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:51:02,984][__main__][INFO] - Epoch 131/200:
+[2026-10-03 06:51:46,119][__main__][INFO] - Train time 43.133s; throughput 264.11 samples/s
+[2026-10-03 06:51:46,119][__main__][INFO] - Train Instance Accuracy: 0.958480
+[2026-10-03 06:51:46,119][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:51:51,219][__main__][INFO] - Current Epoch: 131, Test Instance Accuracy: 0.791811, Class Accuracy: 0.766665
+[2026-10-03 06:51:51,220][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:51:51,222][__main__][INFO] - Epoch 132/200:
+[2026-10-03 06:52:34,342][__main__][INFO] - Train time 43.118s; throughput 264.21 samples/s
+[2026-10-03 06:52:34,342][__main__][INFO] - Train Instance Accuracy: 0.959006
+[2026-10-03 06:52:34,343][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:52:39,439][__main__][INFO] - Current Epoch: 132, Test Instance Accuracy: 0.783484, Class Accuracy: 0.759119
+[2026-10-03 06:52:39,439][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:52:39,441][__main__][INFO] - Epoch 133/200:
+[2026-10-03 06:53:22,658][__main__][INFO] - Train time 43.214s; throughput 263.62 samples/s
+[2026-10-03 06:53:22,658][__main__][INFO] - Train Instance Accuracy: 0.959709
+[2026-10-03 06:53:22,658][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:53:27,755][__main__][INFO] - Current Epoch: 133, Test Instance Accuracy: 0.793546, Class Accuracy: 0.773152
+[2026-10-03 06:53:27,756][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:53:27,757][__main__][INFO] - Epoch 134/200:
+[2026-10-03 06:54:11,014][__main__][INFO] - Train time 43.255s; throughput 263.37 samples/s
+[2026-10-03 06:54:11,015][__main__][INFO] - Train Instance Accuracy: 0.959884
+[2026-10-03 06:54:11,015][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:54:16,112][__main__][INFO] - Current Epoch: 134, Test Instance Accuracy: 0.786260, Class Accuracy: 0.759618
+[2026-10-03 06:54:16,113][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:54:16,203][__main__][INFO] - Epoch 135/200:
+[2026-10-03 06:54:59,337][__main__][INFO] - Train time 43.131s; throughput 264.12 samples/s
+[2026-10-03 06:54:59,337][__main__][INFO] - Train Instance Accuracy: 0.959270
+[2026-10-03 06:54:59,337][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:55:04,434][__main__][INFO] - Current Epoch: 135, Test Instance Accuracy: 0.788688, Class Accuracy: 0.767752
+[2026-10-03 06:55:04,434][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:55:04,685][__main__][INFO] - Epoch 136/200:
+[2026-10-03 06:55:47,858][__main__][INFO] - Train time 43.171s; throughput 263.88 samples/s
+[2026-10-03 06:55:47,858][__main__][INFO] - Train Instance Accuracy: 0.961289
+[2026-10-03 06:55:47,858][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:55:52,958][__main__][INFO] - Current Epoch: 136, Test Instance Accuracy: 0.791811, Class Accuracy: 0.767289
+[2026-10-03 06:55:52,959][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:55:52,961][__main__][INFO] - Epoch 137/200:
+[2026-10-03 06:56:36,098][__main__][INFO] - Train time 43.135s; throughput 264.10 samples/s
+[2026-10-03 06:56:36,099][__main__][INFO] - Train Instance Accuracy: 0.961552
+[2026-10-03 06:56:36,099][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:56:41,196][__main__][INFO] - Current Epoch: 137, Test Instance Accuracy: 0.781402, Class Accuracy: 0.758892
+[2026-10-03 06:56:41,196][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:56:41,394][__main__][INFO] - Epoch 138/200:
+[2026-10-03 06:57:24,564][__main__][INFO] - Train time 43.167s; throughput 263.91 samples/s
+[2026-10-03 06:57:24,564][__main__][INFO] - Train Instance Accuracy: 0.957514
+[2026-10-03 06:57:24,564][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:57:29,662][__main__][INFO] - Current Epoch: 138, Test Instance Accuracy: 0.779667, Class Accuracy: 0.754629
+[2026-10-03 06:57:29,662][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:57:29,665][__main__][INFO] - Epoch 139/200:
+[2026-10-03 06:58:12,827][__main__][INFO] - Train time 43.160s; throughput 263.95 samples/s
+[2026-10-03 06:58:12,828][__main__][INFO] - Train Instance Accuracy: 0.961464
+[2026-10-03 06:58:12,828][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:58:17,925][__main__][INFO] - Current Epoch: 139, Test Instance Accuracy: 0.784178, Class Accuracy: 0.766680
+[2026-10-03 06:58:17,925][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:58:18,479][__main__][INFO] - Epoch 140/200:
+[2026-10-03 06:59:01,648][__main__][INFO] - Train time 43.166s; throughput 263.91 samples/s
+[2026-10-03 06:59:01,648][__main__][INFO] - Train Instance Accuracy: 0.962342
+[2026-10-03 06:59:01,648][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:59:06,746][__main__][INFO] - Current Epoch: 140, Test Instance Accuracy: 0.794934, Class Accuracy: 0.771526
+[2026-10-03 06:59:06,746][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:59:06,748][__main__][INFO] - Save model...
+[2026-10-03 06:59:06,748][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 06:59:06,918][__main__][INFO] - Epoch 141/200:
+[2026-10-03 06:59:50,133][__main__][INFO] - Train time 43.212s; throughput 263.63 samples/s
+[2026-10-03 06:59:50,133][__main__][INFO] - Train Instance Accuracy: 0.964449
+[2026-10-03 06:59:50,133][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 06:59:55,231][__main__][INFO] - Current Epoch: 141, Test Instance Accuracy: 0.793893, Class Accuracy: 0.772924
+[2026-10-03 06:59:55,231][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 06:59:56,783][__main__][INFO] - Epoch 142/200:
+[2026-10-03 07:00:39,893][__main__][INFO] - Train time 43.107s; throughput 264.27 samples/s
+[2026-10-03 07:00:39,893][__main__][INFO] - Train Instance Accuracy: 0.963571
+[2026-10-03 07:00:39,893][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:00:44,992][__main__][INFO] - Current Epoch: 142, Test Instance Accuracy: 0.789382, Class Accuracy: 0.771303
+[2026-10-03 07:00:44,992][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:00:44,995][__main__][INFO] - Epoch 143/200:
+[2026-10-03 07:01:28,160][__main__][INFO] - Train time 43.162s; throughput 263.93 samples/s
+[2026-10-03 07:01:28,160][__main__][INFO] - Train Instance Accuracy: 0.961025
+[2026-10-03 07:01:28,160][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:01:33,259][__main__][INFO] - Current Epoch: 143, Test Instance Accuracy: 0.793199, Class Accuracy: 0.769391
+[2026-10-03 07:01:33,259][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:01:33,262][__main__][INFO] - Epoch 144/200:
+[2026-10-03 07:02:16,543][__main__][INFO] - Train time 43.279s; throughput 263.22 samples/s
+[2026-10-03 07:02:16,544][__main__][INFO] - Train Instance Accuracy: 0.962166
+[2026-10-03 07:02:16,544][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:02:21,642][__main__][INFO] - Current Epoch: 144, Test Instance Accuracy: 0.787994, Class Accuracy: 0.761633
+[2026-10-03 07:02:21,642][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:02:21,644][__main__][INFO] - Epoch 145/200:
+[2026-10-03 07:03:04,828][__main__][INFO] - Train time 43.182s; throughput 263.81 samples/s
+[2026-10-03 07:03:04,828][__main__][INFO] - Train Instance Accuracy: 0.962518
+[2026-10-03 07:03:04,828][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:03:09,925][__main__][INFO] - Current Epoch: 145, Test Instance Accuracy: 0.783137, Class Accuracy: 0.762223
+[2026-10-03 07:03:09,925][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:03:10,401][__main__][INFO] - Epoch 146/200:
+[2026-10-03 07:03:53,694][__main__][INFO] - Train time 43.291s; throughput 263.15 samples/s
+[2026-10-03 07:03:53,695][__main__][INFO] - Train Instance Accuracy: 0.960411
+[2026-10-03 07:03:53,695][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:03:58,792][__main__][INFO] - Current Epoch: 146, Test Instance Accuracy: 0.778626, Class Accuracy: 0.756473
+[2026-10-03 07:03:58,792][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:03:59,476][__main__][INFO] - Epoch 147/200:
+[2026-10-03 07:04:42,652][__main__][INFO] - Train time 43.173s; throughput 263.87 samples/s
+[2026-10-03 07:04:42,653][__main__][INFO] - Train Instance Accuracy: 0.966380
+[2026-10-03 07:04:42,653][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:04:47,754][__main__][INFO] - Current Epoch: 147, Test Instance Accuracy: 0.785913, Class Accuracy: 0.764009
+[2026-10-03 07:04:47,754][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:04:48,688][__main__][INFO] - Epoch 148/200:
+[2026-10-03 07:05:31,887][__main__][INFO] - Train time 43.196s; throughput 263.73 samples/s
+[2026-10-03 07:05:31,887][__main__][INFO] - Train Instance Accuracy: 0.963659
+[2026-10-03 07:05:31,887][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:05:36,985][__main__][INFO] - Current Epoch: 148, Test Instance Accuracy: 0.784525, Class Accuracy: 0.760788
+[2026-10-03 07:05:36,986][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:05:36,987][__main__][INFO] - Epoch 149/200:
+[2026-10-03 07:06:20,108][__main__][INFO] - Train time 43.118s; throughput 264.20 samples/s
+[2026-10-03 07:06:20,108][__main__][INFO] - Train Instance Accuracy: 0.964449
+[2026-10-03 07:06:20,108][__main__][INFO] - Train learning rate is 0.00035999999999999997
+[2026-10-03 07:06:25,206][__main__][INFO] - Current Epoch: 149, Test Instance Accuracy: 0.794240, Class Accuracy: 0.770393
+[2026-10-03 07:06:25,206][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:06:25,209][__main__][INFO] - Epoch 150/200:
+[2026-10-03 07:07:08,428][__main__][INFO] - Train time 43.217s; throughput 263.60 samples/s
+[2026-10-03 07:07:08,428][__main__][INFO] - Train Instance Accuracy: 0.964537
+[2026-10-03 07:07:08,428][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:07:13,526][__main__][INFO] - Current Epoch: 150, Test Instance Accuracy: 0.790770, Class Accuracy: 0.771110
+[2026-10-03 07:07:13,527][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:07:13,529][__main__][INFO] - Save model...
+[2026-10-03 07:07:13,529][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 07:07:13,704][__main__][INFO] - Epoch 151/200:
+[2026-10-03 07:07:56,823][__main__][INFO] - Train time 43.116s; throughput 264.22 samples/s
+[2026-10-03 07:07:56,823][__main__][INFO] - Train Instance Accuracy: 0.967170
+[2026-10-03 07:07:56,824][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:08:01,921][__main__][INFO] - Current Epoch: 151, Test Instance Accuracy: 0.787994, Class Accuracy: 0.765581
+[2026-10-03 07:08:01,921][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:08:01,937][__main__][INFO] - Epoch 152/200:
+[2026-10-03 07:08:45,112][__main__][INFO] - Train time 43.172s; throughput 263.88 samples/s
+[2026-10-03 07:08:45,112][__main__][INFO] - Train Instance Accuracy: 0.964975
+[2026-10-03 07:08:45,112][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:08:50,946][__main__][INFO] - Current Epoch: 152, Test Instance Accuracy: 0.785913, Class Accuracy: 0.762041
+[2026-10-03 07:08:50,946][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:08:50,963][__main__][INFO] - Epoch 153/200:
+[2026-10-03 07:09:34,140][__main__][INFO] - Train time 43.174s; throughput 263.86 samples/s
+[2026-10-03 07:09:34,140][__main__][INFO] - Train Instance Accuracy: 0.964888
+[2026-10-03 07:09:34,140][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:09:39,237][__main__][INFO] - Current Epoch: 153, Test Instance Accuracy: 0.774115, Class Accuracy: 0.754482
+[2026-10-03 07:09:39,237][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:09:39,239][__main__][INFO] - Epoch 154/200:
+[2026-10-03 07:10:22,386][__main__][INFO] - Train time 43.144s; throughput 264.05 samples/s
+[2026-10-03 07:10:22,386][__main__][INFO] - Train Instance Accuracy: 0.970154
+[2026-10-03 07:10:22,386][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:10:27,484][__main__][INFO] - Current Epoch: 154, Test Instance Accuracy: 0.786607, Class Accuracy: 0.762921
+[2026-10-03 07:10:27,484][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:10:27,492][__main__][INFO] - Epoch 155/200:
+[2026-10-03 07:11:10,624][__main__][INFO] - Train time 43.130s; throughput 264.13 samples/s
+[2026-10-03 07:11:10,625][__main__][INFO] - Train Instance Accuracy: 0.967609
+[2026-10-03 07:11:10,625][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:11:15,723][__main__][INFO] - Current Epoch: 155, Test Instance Accuracy: 0.789035, Class Accuracy: 0.762151
+[2026-10-03 07:11:15,723][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:11:16,262][__main__][INFO] - Epoch 156/200:
+[2026-10-03 07:11:59,398][__main__][INFO] - Train time 43.133s; throughput 264.11 samples/s
+[2026-10-03 07:11:59,398][__main__][INFO] - Train Instance Accuracy: 0.964975
+[2026-10-03 07:11:59,398][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:12:04,495][__main__][INFO] - Current Epoch: 156, Test Instance Accuracy: 0.790770, Class Accuracy: 0.767632
+[2026-10-03 07:12:04,495][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:12:04,516][__main__][INFO] - Epoch 157/200:
+[2026-10-03 07:12:47,761][__main__][INFO] - Train time 43.242s; throughput 263.45 samples/s
+[2026-10-03 07:12:47,761][__main__][INFO] - Train Instance Accuracy: 0.969101
+[2026-10-03 07:12:47,761][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:12:52,860][__main__][INFO] - Current Epoch: 157, Test Instance Accuracy: 0.789035, Class Accuracy: 0.765245
+[2026-10-03 07:12:52,860][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:12:52,863][__main__][INFO] - Epoch 158/200:
+[2026-10-03 07:13:36,008][__main__][INFO] - Train time 43.143s; throughput 264.05 samples/s
+[2026-10-03 07:13:36,008][__main__][INFO] - Train Instance Accuracy: 0.964361
+[2026-10-03 07:13:36,008][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:13:41,105][__main__][INFO] - Current Epoch: 158, Test Instance Accuracy: 0.789382, Class Accuracy: 0.769561
+[2026-10-03 07:13:41,106][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:13:41,108][__main__][INFO] - Epoch 159/200:
+[2026-10-03 07:14:24,220][__main__][INFO] - Train time 43.110s; throughput 264.26 samples/s
+[2026-10-03 07:14:24,220][__main__][INFO] - Train Instance Accuracy: 0.967170
+[2026-10-03 07:14:24,220][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:14:29,318][__main__][INFO] - Current Epoch: 159, Test Instance Accuracy: 0.791117, Class Accuracy: 0.769966
+[2026-10-03 07:14:29,318][__main__][INFO] - Best Epoch: 117, Best Instance Accuracy: 0.798404, Class Accuracy: 0.776367
+[2026-10-03 07:14:29,350][__main__][INFO] - Epoch 160/200:
+[2026-10-03 07:15:12,527][__main__][INFO] - Train time 43.175s; throughput 263.86 samples/s
+[2026-10-03 07:15:12,527][__main__][INFO] - Train Instance Accuracy: 0.965502
+[2026-10-03 07:15:12,527][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:15:17,626][__main__][INFO] - Current Epoch: 160, Test Instance Accuracy: 0.799098, Class Accuracy: 0.774703
+[2026-10-03 07:15:17,626][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:15:17,644][__main__][INFO] - Save model...
+[2026-10-03 07:15:17,644][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 07:15:17,990][__main__][INFO] - Epoch 161/200:
+[2026-10-03 07:16:01,177][__main__][INFO] - Train time 43.184s; throughput 263.80 samples/s
+[2026-10-03 07:16:01,177][__main__][INFO] - Train Instance Accuracy: 0.966204
+[2026-10-03 07:16:01,177][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:16:06,274][__main__][INFO] - Current Epoch: 161, Test Instance Accuracy: 0.795628, Class Accuracy: 0.770385
+[2026-10-03 07:16:06,275][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:16:06,463][__main__][INFO] - Epoch 162/200:
+[2026-10-03 07:16:49,610][__main__][INFO] - Train time 43.145s; throughput 264.04 samples/s
+[2026-10-03 07:16:49,610][__main__][INFO] - Train Instance Accuracy: 0.969803
+[2026-10-03 07:16:49,610][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:16:54,708][__main__][INFO] - Current Epoch: 162, Test Instance Accuracy: 0.784872, Class Accuracy: 0.764116
+[2026-10-03 07:16:54,709][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:16:54,721][__main__][INFO] - Epoch 163/200:
+[2026-10-03 07:17:37,895][__main__][INFO] - Train time 43.171s; throughput 263.88 samples/s
+[2026-10-03 07:17:37,895][__main__][INFO] - Train Instance Accuracy: 0.965765
+[2026-10-03 07:17:37,895][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:17:42,992][__main__][INFO] - Current Epoch: 163, Test Instance Accuracy: 0.784178, Class Accuracy: 0.763634
+[2026-10-03 07:17:42,992][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:17:43,027][__main__][INFO] - Epoch 164/200:
+[2026-10-03 07:18:26,261][__main__][INFO] - Train time 43.231s; throughput 263.51 samples/s
+[2026-10-03 07:18:26,261][__main__][INFO] - Train Instance Accuracy: 0.968136
+[2026-10-03 07:18:26,261][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:18:31,360][__main__][INFO] - Current Epoch: 164, Test Instance Accuracy: 0.787994, Class Accuracy: 0.770736
+[2026-10-03 07:18:31,360][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:18:31,384][__main__][INFO] - Epoch 165/200:
+[2026-10-03 07:19:14,546][__main__][INFO] - Train time 43.160s; throughput 263.95 samples/s
+[2026-10-03 07:19:14,546][__main__][INFO] - Train Instance Accuracy: 0.965590
+[2026-10-03 07:19:14,546][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:19:19,644][__main__][INFO] - Current Epoch: 165, Test Instance Accuracy: 0.781749, Class Accuracy: 0.755561
+[2026-10-03 07:19:19,644][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:19:19,646][__main__][INFO] - Epoch 166/200:
+[2026-10-03 07:20:02,890][__main__][INFO] - Train time 43.241s; throughput 263.45 samples/s
+[2026-10-03 07:20:02,890][__main__][INFO] - Train Instance Accuracy: 0.967433
+[2026-10-03 07:20:02,890][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:20:07,987][__main__][INFO] - Current Epoch: 166, Test Instance Accuracy: 0.788341, Class Accuracy: 0.762791
+[2026-10-03 07:20:07,987][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.776367
+[2026-10-03 07:20:07,992][__main__][INFO] - Epoch 167/200:
+[2026-10-03 07:20:51,186][__main__][INFO] - Train time 43.192s; throughput 263.75 samples/s
+[2026-10-03 07:20:51,186][__main__][INFO] - Train Instance Accuracy: 0.967697
+[2026-10-03 07:20:51,186][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:20:56,284][__main__][INFO] - Current Epoch: 167, Test Instance Accuracy: 0.796669, Class Accuracy: 0.777023
+[2026-10-03 07:20:56,284][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:20:56,293][__main__][INFO] - Epoch 168/200:
+[2026-10-03 07:21:39,404][__main__][INFO] - Train time 43.109s; throughput 264.26 samples/s
+[2026-10-03 07:21:39,404][__main__][INFO] - Train Instance Accuracy: 0.966907
+[2026-10-03 07:21:39,405][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:21:44,501][__main__][INFO] - Current Epoch: 168, Test Instance Accuracy: 0.795975, Class Accuracy: 0.772493
+[2026-10-03 07:21:44,502][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:21:44,521][__main__][INFO] - Epoch 169/200:
+[2026-10-03 07:22:27,674][__main__][INFO] - Train time 43.151s; throughput 264.01 samples/s
+[2026-10-03 07:22:27,674][__main__][INFO] - Train Instance Accuracy: 0.966994
+[2026-10-03 07:22:27,674][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:22:32,771][__main__][INFO] - Current Epoch: 169, Test Instance Accuracy: 0.787994, Class Accuracy: 0.766943
+[2026-10-03 07:22:32,771][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:22:32,774][__main__][INFO] - Epoch 170/200:
+[2026-10-03 07:23:15,935][__main__][INFO] - Train time 43.158s; throughput 263.96 samples/s
+[2026-10-03 07:23:15,935][__main__][INFO] - Train Instance Accuracy: 0.965590
+[2026-10-03 07:23:15,935][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:23:21,033][__main__][INFO] - Current Epoch: 170, Test Instance Accuracy: 0.792158, Class Accuracy: 0.768589
+[2026-10-03 07:23:21,033][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:23:21,035][__main__][INFO] - Save model...
+[2026-10-03 07:23:21,035][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 07:23:21,207][__main__][INFO] - Epoch 171/200:
+[2026-10-03 07:24:04,384][__main__][INFO] - Train time 43.175s; throughput 263.86 samples/s
+[2026-10-03 07:24:04,384][__main__][INFO] - Train Instance Accuracy: 0.969189
+[2026-10-03 07:24:04,384][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:24:09,481][__main__][INFO] - Current Epoch: 171, Test Instance Accuracy: 0.789035, Class Accuracy: 0.762555
+[2026-10-03 07:24:09,481][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:24:09,483][__main__][INFO] - Epoch 172/200:
+[2026-10-03 07:24:52,629][__main__][INFO] - Train time 43.144s; throughput 264.05 samples/s
+[2026-10-03 07:24:52,629][__main__][INFO] - Train Instance Accuracy: 0.965063
+[2026-10-03 07:24:52,629][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:24:57,772][__main__][INFO] - Current Epoch: 172, Test Instance Accuracy: 0.792505, Class Accuracy: 0.768860
+[2026-10-03 07:24:57,772][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:24:57,774][__main__][INFO] - Epoch 173/200:
+[2026-10-03 07:25:40,896][__main__][INFO] - Train time 43.120s; throughput 264.20 samples/s
+[2026-10-03 07:25:40,896][__main__][INFO] - Train Instance Accuracy: 0.968750
+[2026-10-03 07:25:40,896][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:25:45,994][__main__][INFO] - Current Epoch: 173, Test Instance Accuracy: 0.784178, Class Accuracy: 0.767268
+[2026-10-03 07:25:45,994][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:25:45,996][__main__][INFO] - Epoch 174/200:
+[2026-10-03 07:26:29,132][__main__][INFO] - Train time 43.133s; throughput 264.11 samples/s
+[2026-10-03 07:26:29,132][__main__][INFO] - Train Instance Accuracy: 0.969101
+[2026-10-03 07:26:29,132][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:26:34,230][__main__][INFO] - Current Epoch: 174, Test Instance Accuracy: 0.784872, Class Accuracy: 0.760021
+[2026-10-03 07:26:34,230][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:26:34,250][__main__][INFO] - Epoch 175/200:
+[2026-10-03 07:27:17,439][__main__][INFO] - Train time 43.186s; throughput 263.79 samples/s
+[2026-10-03 07:27:17,439][__main__][INFO] - Train Instance Accuracy: 0.968926
+[2026-10-03 07:27:17,439][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:27:22,533][__main__][INFO] - Current Epoch: 175, Test Instance Accuracy: 0.785913, Class Accuracy: 0.762496
+[2026-10-03 07:27:22,533][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:27:22,706][__main__][INFO] - Epoch 176/200:
+[2026-10-03 07:28:05,815][__main__][INFO] - Train time 43.107s; throughput 264.27 samples/s
+[2026-10-03 07:28:05,816][__main__][INFO] - Train Instance Accuracy: 0.968048
+[2026-10-03 07:28:05,816][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:28:10,910][__main__][INFO] - Current Epoch: 176, Test Instance Accuracy: 0.790423, Class Accuracy: 0.772668
+[2026-10-03 07:28:10,911][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:28:10,926][__main__][INFO] - Epoch 177/200:
+[2026-10-03 07:28:54,170][__main__][INFO] - Train time 43.241s; throughput 263.45 samples/s
+[2026-10-03 07:28:54,170][__main__][INFO] - Train Instance Accuracy: 0.964800
+[2026-10-03 07:28:54,170][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:28:59,268][__main__][INFO] - Current Epoch: 177, Test Instance Accuracy: 0.787647, Class Accuracy: 0.759450
+[2026-10-03 07:28:59,268][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:28:59,271][__main__][INFO] - Epoch 178/200:
+[2026-10-03 07:29:42,458][__main__][INFO] - Train time 43.185s; throughput 263.79 samples/s
+[2026-10-03 07:29:42,458][__main__][INFO] - Train Instance Accuracy: 0.965941
+[2026-10-03 07:29:42,458][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:29:47,557][__main__][INFO] - Current Epoch: 178, Test Instance Accuracy: 0.788341, Class Accuracy: 0.764151
+[2026-10-03 07:29:47,557][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:29:47,600][__main__][INFO] - Epoch 179/200:
+[2026-10-03 07:30:30,781][__main__][INFO] - Train time 43.179s; throughput 263.83 samples/s
+[2026-10-03 07:30:30,782][__main__][INFO] - Train Instance Accuracy: 0.967433
+[2026-10-03 07:30:30,782][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:30:35,879][__main__][INFO] - Current Epoch: 179, Test Instance Accuracy: 0.786954, Class Accuracy: 0.761655
+[2026-10-03 07:30:35,879][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:30:35,881][__main__][INFO] - Epoch 180/200:
+[2026-10-03 07:31:20,491][__main__][INFO] - Train time 44.608s; throughput 255.38 samples/s
+[2026-10-03 07:31:20,491][__main__][INFO] - Train Instance Accuracy: 0.967784
+[2026-10-03 07:31:20,491][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:31:25,576][__main__][INFO] - Current Epoch: 180, Test Instance Accuracy: 0.792158, Class Accuracy: 0.769429
+[2026-10-03 07:31:25,576][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:31:25,578][__main__][INFO] - Save model...
+[2026-10-03 07:31:25,578][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 07:31:25,750][__main__][INFO] - Epoch 181/200:
+[2026-10-03 07:32:08,926][__main__][INFO] - Train time 43.173s; throughput 263.87 samples/s
+[2026-10-03 07:32:08,926][__main__][INFO] - Train Instance Accuracy: 0.970857
+[2026-10-03 07:32:08,926][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:32:14,022][__main__][INFO] - Current Epoch: 181, Test Instance Accuracy: 0.783137, Class Accuracy: 0.760000
+[2026-10-03 07:32:14,022][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:32:14,031][__main__][INFO] - Epoch 182/200:
+[2026-10-03 07:32:57,134][__main__][INFO] - Train time 43.101s; throughput 264.31 samples/s
+[2026-10-03 07:32:57,134][__main__][INFO] - Train Instance Accuracy: 0.966468
+[2026-10-03 07:32:57,134][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:33:02,230][__main__][INFO] - Current Epoch: 182, Test Instance Accuracy: 0.794240, Class Accuracy: 0.771417
+[2026-10-03 07:33:02,231][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:33:02,233][__main__][INFO] - Epoch 183/200:
+[2026-10-03 07:33:45,359][__main__][INFO] - Train time 43.124s; throughput 264.17 samples/s
+[2026-10-03 07:33:45,359][__main__][INFO] - Train Instance Accuracy: 0.970593
+[2026-10-03 07:33:45,359][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:33:50,461][__main__][INFO] - Current Epoch: 183, Test Instance Accuracy: 0.792158, Class Accuracy: 0.770385
+[2026-10-03 07:33:50,461][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:33:50,470][__main__][INFO] - Epoch 184/200:
+[2026-10-03 07:34:33,511][__main__][INFO] - Train time 43.039s; throughput 264.69 samples/s
+[2026-10-03 07:34:33,512][__main__][INFO] - Train Instance Accuracy: 0.970681
+[2026-10-03 07:34:33,512][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:34:38,608][__main__][INFO] - Current Epoch: 184, Test Instance Accuracy: 0.784872, Class Accuracy: 0.762178
+[2026-10-03 07:34:38,608][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:34:38,610][__main__][INFO] - Epoch 185/200:
+[2026-10-03 07:35:21,714][__main__][INFO] - Train time 43.102s; throughput 264.30 samples/s
+[2026-10-03 07:35:21,714][__main__][INFO] - Train Instance Accuracy: 0.967170
+[2026-10-03 07:35:21,714][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:35:26,811][__main__][INFO] - Current Epoch: 185, Test Instance Accuracy: 0.792158, Class Accuracy: 0.772250
+[2026-10-03 07:35:26,811][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:35:26,813][__main__][INFO] - Epoch 186/200:
+[2026-10-03 07:36:09,873][__main__][INFO] - Train time 43.058s; throughput 264.57 samples/s
+[2026-10-03 07:36:09,874][__main__][INFO] - Train Instance Accuracy: 0.968048
+[2026-10-03 07:36:09,874][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:36:14,969][__main__][INFO] - Current Epoch: 186, Test Instance Accuracy: 0.786954, Class Accuracy: 0.766397
+[2026-10-03 07:36:14,969][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:36:14,980][__main__][INFO] - Epoch 187/200:
+[2026-10-03 07:36:58,094][__main__][INFO] - Train time 43.111s; throughput 264.25 samples/s
+[2026-10-03 07:36:58,094][__main__][INFO] - Train Instance Accuracy: 0.967433
+[2026-10-03 07:36:58,094][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:37:03,193][__main__][INFO] - Current Epoch: 187, Test Instance Accuracy: 0.788688, Class Accuracy: 0.764310
+[2026-10-03 07:37:03,193][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:37:03,219][__main__][INFO] - Epoch 188/200:
+[2026-10-03 07:37:46,345][__main__][INFO] - Train time 43.124s; throughput 264.17 samples/s
+[2026-10-03 07:37:46,345][__main__][INFO] - Train Instance Accuracy: 0.968574
+[2026-10-03 07:37:46,345][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:37:51,446][__main__][INFO] - Current Epoch: 188, Test Instance Accuracy: 0.782096, Class Accuracy: 0.756811
+[2026-10-03 07:37:51,446][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:37:51,448][__main__][INFO] - Epoch 189/200:
+[2026-10-03 07:38:34,506][__main__][INFO] - Train time 43.055s; throughput 264.59 samples/s
+[2026-10-03 07:38:34,506][__main__][INFO] - Train Instance Accuracy: 0.966731
+[2026-10-03 07:38:34,506][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:38:39,602][__main__][INFO] - Current Epoch: 189, Test Instance Accuracy: 0.782790, Class Accuracy: 0.759244
+[2026-10-03 07:38:39,602][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:38:39,604][__main__][INFO] - Epoch 190/200:
+[2026-10-03 07:39:22,710][__main__][INFO] - Train time 43.103s; throughput 264.29 samples/s
+[2026-10-03 07:39:22,710][__main__][INFO] - Train Instance Accuracy: 0.969013
+[2026-10-03 07:39:22,710][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:39:27,805][__main__][INFO] - Current Epoch: 190, Test Instance Accuracy: 0.789035, Class Accuracy: 0.762155
+[2026-10-03 07:39:27,806][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:39:27,808][__main__][INFO] - Save model...
+[2026-10-03 07:39:27,808][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 07:39:27,978][__main__][INFO] - Epoch 191/200:
+[2026-10-03 07:40:11,096][__main__][INFO] - Train time 43.115s; throughput 264.22 samples/s
+[2026-10-03 07:40:11,096][__main__][INFO] - Train Instance Accuracy: 0.969891
+[2026-10-03 07:40:11,096][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:40:16,192][__main__][INFO] - Current Epoch: 191, Test Instance Accuracy: 0.797363, Class Accuracy: 0.777004
+[2026-10-03 07:40:16,192][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:40:16,194][__main__][INFO] - Epoch 192/200:
+[2026-10-03 07:40:59,294][__main__][INFO] - Train time 43.097s; throughput 264.33 samples/s
+[2026-10-03 07:40:59,294][__main__][INFO] - Train Instance Accuracy: 0.967346
+[2026-10-03 07:40:59,294][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:41:04,391][__main__][INFO] - Current Epoch: 192, Test Instance Accuracy: 0.792852, Class Accuracy: 0.767696
+[2026-10-03 07:41:04,391][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:41:04,393][__main__][INFO] - Epoch 193/200:
+[2026-10-03 07:41:47,476][__main__][INFO] - Train time 43.080s; throughput 264.44 samples/s
+[2026-10-03 07:41:47,477][__main__][INFO] - Train Instance Accuracy: 0.967960
+[2026-10-03 07:41:47,477][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:41:52,577][__main__][INFO] - Current Epoch: 193, Test Instance Accuracy: 0.783831, Class Accuracy: 0.760451
+[2026-10-03 07:41:52,577][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:41:52,578][__main__][INFO] - Epoch 194/200:
+[2026-10-03 07:42:35,681][__main__][INFO] - Train time 43.101s; throughput 264.31 samples/s
+[2026-10-03 07:42:35,682][__main__][INFO] - Train Instance Accuracy: 0.969803
+[2026-10-03 07:42:35,682][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:42:40,778][__main__][INFO] - Current Epoch: 194, Test Instance Accuracy: 0.789729, Class Accuracy: 0.765023
+[2026-10-03 07:42:40,778][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:42:40,849][__main__][INFO] - Epoch 195/200:
+[2026-10-03 07:43:24,783][__main__][INFO] - Train time 43.931s; throughput 259.32 samples/s
+[2026-10-03 07:43:24,783][__main__][INFO] - Train Instance Accuracy: 0.967521
+[2026-10-03 07:43:24,783][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:43:29,877][__main__][INFO] - Current Epoch: 195, Test Instance Accuracy: 0.785913, Class Accuracy: 0.764424
+[2026-10-03 07:43:29,877][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:43:29,955][__main__][INFO] - Epoch 196/200:
+[2026-10-03 07:44:13,054][__main__][INFO] - Train time 43.096s; throughput 264.34 samples/s
+[2026-10-03 07:44:13,054][__main__][INFO] - Train Instance Accuracy: 0.968223
+[2026-10-03 07:44:13,054][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:44:18,149][__main__][INFO] - Current Epoch: 196, Test Instance Accuracy: 0.793199, Class Accuracy: 0.768405
+[2026-10-03 07:44:18,149][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:44:18,151][__main__][INFO] - Epoch 197/200:
+[2026-10-03 07:45:01,251][__main__][INFO] - Train time 43.097s; throughput 264.33 samples/s
+[2026-10-03 07:45:01,251][__main__][INFO] - Train Instance Accuracy: 0.964888
+[2026-10-03 07:45:01,251][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:45:06,346][__main__][INFO] - Current Epoch: 197, Test Instance Accuracy: 0.789382, Class Accuracy: 0.763910
+[2026-10-03 07:45:06,347][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:45:06,350][__main__][INFO] - Epoch 198/200:
+[2026-10-03 07:45:49,447][__main__][INFO] - Train time 43.095s; throughput 264.35 samples/s
+[2026-10-03 07:45:49,447][__main__][INFO] - Train Instance Accuracy: 0.968926
+[2026-10-03 07:45:49,447][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:45:54,629][__main__][INFO] - Current Epoch: 198, Test Instance Accuracy: 0.781402, Class Accuracy: 0.759806
+[2026-10-03 07:45:54,629][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:45:54,633][__main__][INFO] - Epoch 199/200:
+[2026-10-03 07:46:37,649][__main__][INFO] - Train time 43.014s; throughput 264.85 samples/s
+[2026-10-03 07:46:37,649][__main__][INFO] - Train Instance Accuracy: 0.969803
+[2026-10-03 07:46:37,650][__main__][INFO] - Train learning rate is 0.00010799999999999998
+[2026-10-03 07:46:42,747][__main__][INFO] - Current Epoch: 199, Test Instance Accuracy: 0.798057, Class Accuracy: 0.772325
+[2026-10-03 07:46:42,747][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:46:42,750][__main__][INFO] - Epoch 200/200:
+[2026-10-03 07:47:25,848][__main__][INFO] - Train time 43.096s; throughput 264.34 samples/s
+[2026-10-03 07:47:25,848][__main__][INFO] - Train Instance Accuracy: 0.967872
+[2026-10-03 07:47:25,848][__main__][INFO] - Train learning rate is 3.2399999999999995e-05
+[2026-10-03 07:47:30,942][__main__][INFO] - Current Epoch: 200, Test Instance Accuracy: 0.783484, Class Accuracy: 0.759690
+[2026-10-03 07:47:30,942][__main__][INFO] - Best Epoch: 160, Best Instance Accuracy: 0.799098, Class Accuracy: 0.777023
+[2026-10-03 07:47:31,129][__main__][INFO] - Save model...
+[2026-10-03 07:47:31,129][__main__][INFO] - Saving at best_model.pth
+[2026-10-03 07:47:31,309][__main__][INFO] - End of training...

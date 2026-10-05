@@ -1,0 +1,2 @@
+logs/scanobjectnn_q768/model.pth filter=lfs diff=lfs merge=lfs -text
+logs/scanobjectnn_q512/model.pth filter=lfs diff=lfs merge=lfs -text

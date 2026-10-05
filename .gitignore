@@ -173,7 +173,17 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-logs/
+/logs/*
+!/logs/scanobjectnn_q768/
+!/logs/scanobjectnn_q512/
+/logs/scanobjectnn_q768/*
+/logs/scanobjectnn_q512/*
+!/logs/scanobjectnn_q768/model.pth
+!/logs/scanobjectnn_q768/config.yaml
+!/logs/scanobjectnn_q768/training.log
+!/logs/scanobjectnn_q512/model.pth
+!/logs/scanobjectnn_q512/config.yaml
+!/logs/scanobjectnn_q512/training.log
 audit_reports/
 /tests/
 *.zip

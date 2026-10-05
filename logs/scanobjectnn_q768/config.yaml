@@ -1,0 +1,44 @@
+model:
+  nneighbor: 16
+  nblocks: 4
+  blocks:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  transformer_dim: 512
+  name: Hengshuang
+  timestep: 4
+  spike_mode: lif
+  use_encoder: true
+  num_samples: 768
+dataset:
+  name: ScanObjectNN
+  DATA_PATH: /mmu_mllm_hdd_2/wupeixi/data/ScanObjectNN
+  num_class: 15
+  normal: false
+batch_size: 16
+epoch: 200
+learning_rate: 0.004
+gpu:
+- 0
+- 1
+- 2
+- 3
+num_point: 1024
+optimizer: AdamW
+weight_decay: 0.0001
+num_workers: 2
+save_last_every: 10
+augmentation:
+  dropout: 0.2
+  scale_low: 0.85
+  scale_high: 1.15
+log_dir: ./logs/scanobjectnn_q768
+label_smoothing: 0.1
+class_weight_power: 0.75
+world_size: 4
+global_batch_size: 64
+visible_devices: 0,1,2,3
+input_dim: 3
